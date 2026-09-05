@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="061DAB77-004A-9522-062E-183AD623D7A7" name="USER">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 13:34:37 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_user" id="B752C49C-D6A1-C6F3-C5B8-46653FD9243E">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 13:38:39 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_country" id="1D84A393-20C8-E205-DB6B-BCA919F21516">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 15:31:14 UTC</createdTime>
+<generatorID>FE7DF796-2977-9C99-B4F6-5EF582B621F5</generatorID>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<referedAttribute>9395FD17-4113-5E12-6DD8-E04E0686CD44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="full_name" id="45DB0E49-8DF5-10DA-6FA2-CD8CC0EA7FAC">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 15:37:46 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="17408FD6-6581-9E79-0EF1-72F89475818F">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 15:38:24 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="6DE4585E-7DDD-79A0-C77B-0223B828D9F4">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 20:58:25 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1198503-7362-BC53-325B-4939E2451555" name="USER PK">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 14:24:27 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B752C49C-D6A1-C6F3-C5B8-46653FD9243E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5B1BBBAC-6CD4-E0AC-829A-4F22580497BD" name="EMAIL">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 15:43:49 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<synonym>email</synonym>
+<newElementsIDs>17408FD6-6581-9E79-0EF1-72F89475818F</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A6C32EF-7F4D-5D3F-B0CC-4E1659DC59EC" name="PLAN">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 14:25:01 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plan" id="94ECDD9F-58F8-EAAB-CEE2-4345AD775925">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 20:59:34 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="6ACD108A-7DB6-0923-8786-CF8F3C37CA97">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 20:59:47 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="max_screens" id="D8925E8E-9612-B5C6-2372-246A2144BFBC">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 20:59:59 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="max_quality" id="634227EC-3DF2-76CE-D4C7-2E327667F0F7">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 21:01:02 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="offline_download" id="3C92D226-FEE5-FEA1-4EE0-379A41BA0096">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 21:01:27 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76880F72-842E-BD9D-6431-09FAF4F61B7C" name="PLAN PK">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 20:59:37 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94ECDD9F-58F8-EAAB-CEE2-4345AD775925</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

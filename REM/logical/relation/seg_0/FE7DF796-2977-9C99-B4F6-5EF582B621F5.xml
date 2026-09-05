@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="FE7DF796-2977-9C99-B4F6-5EF582B621F5">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 14:27:16 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<engineerTo>
+<item key="3703D59D-5C9B-89DA-EE58-1826E30231D2" value="true"/>
+</engineerTo>
+<sourcePk>2EE358E7-765A-A9CA-1F8A-FDB53BA8AC0F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget>is from</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A794CD8-B875-01CF-FB6C-46AC59CE1202</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>061DAB77-004A-9522-062E-183AD623D7A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

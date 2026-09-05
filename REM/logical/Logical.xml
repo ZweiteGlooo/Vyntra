@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E54C40E3-3ECE-9249-409D-45858647A24A" mainViewID="63A79423-08BE-9C0A-CB0A-0C68A1E4A878">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 13:33:27 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
