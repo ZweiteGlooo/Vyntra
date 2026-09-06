@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="REM" id="1EB8A2B8-FC06-7505-750A-F5A7EAF3CDC0" version="3.5">
+<createdBy>glori</createdBy>
+<createdTime>2026-09-05 13:33:27 UTC</createdTime>
+<ownerDesignName>REM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1EB8A2B8-FC06-7505-750A-F5A7EAF3CDC0</designId>
+</OSDM_Design>
