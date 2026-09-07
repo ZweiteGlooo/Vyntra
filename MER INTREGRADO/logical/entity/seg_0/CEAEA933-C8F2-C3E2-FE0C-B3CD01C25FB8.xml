@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEAEA933-C8F2-C3E2-FE0C-B3CD01C25FB8" name="PAYMENT_METHOD">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 01:52:28 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_payment_method" id="FEB55B1D-4127-B58B-BFA8-1E71C1291CA5">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 01:56:59 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="card_type" id="5A334DD6-660D-6563-89CF-245FBD3E2BB8">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 01:57:17 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="card_number_masked" id="0229A20E-EEA8-3144-DB09-720F7EBE94AA">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:01:52 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cardholder_name" id="7EB32B86-2666-25A5-62AA-F23466A9122F">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:02:04 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiration_date" id="BDFAB098-CB91-F7D5-CD9D-FBBE286ED883">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:02:32 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_default" id="27DB2D64-1E68-72C2-CF03-F86DDD243464">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:02:40 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="3D46FA9B-32E6-9455-3CB6-FC4F83443AE4">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:02:51 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="96EC7C26-4CC9-D109-5A81-D45C11D9C799">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:09:48 UTC</createdTime>
+<generatorID>CAA68F33-B61D-7CD7-779E-9D0D4B7B09A9</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>F2FC3576-BADC-C1AE-3059-D75C5E9C181C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59140E94-E0D2-E5ED-DB32-FFBBAA9B2146" name="PAYMENT_METHOD PK">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 01:57:14 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEB55B1D-4127-B58B-BFA8-1E71C1291CA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

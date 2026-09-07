@@ -68,6 +68,27 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="end_date" id="3DD5EC0D-6C38-9544-BA65-9999FED7DAC7">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:10:28 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auto_renew" id="924631FA-5072-15DD-C25E-399A34A14379">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:10:38 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cancellation_date" id="3D3C29F0-6A8A-4CF3-ED17-96CAA27F914D">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:11:37 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4D0B0E89-5D01-2450-7EE0-188C553EF26E" name="SUBSCRIPTION PK">

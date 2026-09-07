@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_34" directorySegmentName="seg_0" id="D689585A-0A28-4515-F1BC-1236738B98ED">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:14:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<sourcePk>59140E94-E0D2-E5ED-DB32-FFBBAA9B2146</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>is used in</nameOnSource>
+<nameOnTarget>is paid with</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CEAEA933-C8F2-C3E2-FE0C-B3CD01C25FB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CC994664-9F78-65D7-6112-D2CE90FD66B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

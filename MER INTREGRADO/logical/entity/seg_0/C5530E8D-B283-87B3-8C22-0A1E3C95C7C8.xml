@@ -2,12 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5530E8D-B283-87B3-8C22-0A1E3C95C7C8" name="GENRE">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>809A7373-A544-A55F-62AF-4E55EB596D4B</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,24 +16,16 @@
 <Attribute name="id_genre" id="FFB150A1-9B30-14D6-6607-4EBF6B5039D4">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>D17E0750-134B-5101-67B0-4B2D511AA576</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name_genre" id="97B04F08-BF8A-B5AC-40C5-53A0B782E921">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>66D4C536-9CFA-A1ED-8F03-3B3F867A5801</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -46,12 +34,8 @@
 <identifier id="5B061378-C2B7-6005-7807-9338813181C2" name="GENERO PK">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>DC560AE6-18F7-7D0D-7E45-2CB6F9DABE7E</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FFB150A1-9B30-14D6-6607-4EBF6B5039D4</attributeRef>

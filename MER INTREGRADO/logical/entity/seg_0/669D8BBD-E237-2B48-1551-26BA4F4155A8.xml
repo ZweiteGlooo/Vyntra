@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="669D8BBD-E237-2B48-1551-26BA4F4155A8" name="PROMO_CODE">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:15:36 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_promo_code" id="F4109777-E7BB-1F97-06B9-CB86436CD5B9">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:16:06 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="4170C061-326C-8136-C7FB-1B23FD2A97D8">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:17:55 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount_type" id="64460C54-9DAF-23EB-6220-A1FBBBE2FD82">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:03 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount_value" id="988324D6-342C-0514-E1D5-C982D70EA385">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:11 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valid_from" id="C9E70203-B788-9BAB-1C8C-1C62B268EEFF">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:21 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valid_to" id="ECBD1E18-3EFD-F9CC-FB14-B47FC328404E">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:28 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="max_uses" id="146EAE30-7B34-EF82-CBC3-7EC22C8DD3A6">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:35 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uses_count" id="E9E0381F-B20D-388F-6E1E-01985E1C8719">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:43 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="81DD95D7-6AE1-7FFF-CCF2-FE4BEB3016BF">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:18:51 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB2196E2-E42B-EE83-B2F2-AA27B11B9935" name="PROMO_CODE PK">
+<createdBy>verop</createdBy>
+<createdTime>2026-09-07 02:16:12 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4109777-E7BB-1F97-06B9-CB86436CD5B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

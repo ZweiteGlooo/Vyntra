@@ -2,13 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="D855D618-0DD2-69BD-AA76-583C62CA69D5">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-07 00:01:14 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <sourcePk>5B061378-C2B7-6005-7807-9338813181C2</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget>corresponds to</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
