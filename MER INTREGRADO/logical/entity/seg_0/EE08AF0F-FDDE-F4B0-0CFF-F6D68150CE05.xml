@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE08AF0F-FDDE-F4B0-0CFF-F6D68150CE05" name="PARTICIPATION">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<importedID>0CE2FB9E-528A-BE06-5570-05356E13204A</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_title" id="1B1FCB30-489D-23AF-4016-382144EACC18">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<importedID>44D05EF0-C142-E6BD-642C-50E82A3BA86D</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_actor" id="14A24FC2-246B-24DA-5030-DFD68B58506D">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<importedID>5CE0160A-A204-595A-0624-59478E73FE00</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="character" id="7F77E685-1DAA-9157-3978-B66C1599609D">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<importedID>84C281A4-C254-FF17-86FB-6E5902577FAB</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_actor1" id="0EBB83B8-A226-5B3A-7D31-002EF89F2D78">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<generatorID>18759076-6E7B-1941-F73F-830E967F144C</generatorID>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<importedID>13914DBC-F1AE-B716-6E50-B57B20A4412B</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<referedAttribute>606F4DAF-1FC0-231F-CBEB-A8E6A1554A0A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="DD5482E8-2FF1-F2E7-B70A-E37DBBDEEF75">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:52:03 UTC</createdTime>
+<generatorID>C0527937-DFA1-DF8D-0446-E1A649E54CB8</generatorID>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_actor2" id="CAFCC26F-E95C-1BC3-45C2-C6D918B36223">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-07 00:08:11 UTC</createdTime>
+<generatorID>EBE89554-8B39-EF03-9DF7-9EA5146D5ADF</generatorID>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<referedAttribute>606F4DAF-1FC0-231F-CBEB-A8E6A1554A0A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C2CF634-B494-7786-D0BB-110E5B6361FB" name="PARTICIPACION PK">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<importedID>241C66AB-2C62-616C-40E9-238CCA198EFC</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B1FCB30-489D-23AF-4016-382144EACC18</attributeRef>
+<attributeRef>14A24FC2-246B-24DA-5030-DFD68B58506D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

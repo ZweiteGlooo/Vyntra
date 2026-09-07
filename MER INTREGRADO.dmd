@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER INTREGRADO" id="2C8F25A3-592D-4C40-B6C7-2E8D7431CDBC" version="3.5">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:12 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2C8F25A3-592D-4C40-B6C7-2E8D7431CDBC</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CE965E78-35E2-9EC5-5C8A-9815B01CDABA">
+<designStoragePath>/Users/valentanga/Desktop/5to Semestre/SID/Catalogo de contenido-valen</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1EB8A2B8-FC06-7505-750A-F5A7EAF3CDC0">
+<designStoragePath>/Users/valentanga/Desktop/5to Semestre/SID/Vyntra/REM</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
