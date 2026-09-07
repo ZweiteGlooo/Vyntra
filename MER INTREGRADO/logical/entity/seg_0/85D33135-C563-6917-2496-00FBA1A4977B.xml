@@ -2,12 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85D33135-C563-6917-2496-00FBA1A4977B" name="TV_SHOW">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>0A789E99-6A74-943D-A424-EEFF0BCEC57A</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -22,15 +18,29 @@
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
 <generatorID>14F93F2C-7123-4C54-16B8-8B9E8B99741F</generatorID>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <referedAttribute>F2FC3576-BADC-C1AE-3059-D75C5E9C181C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_episode" id="44D55617-CF25-7224-FA67-69472BAE7E23">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 00:58:08 UTC</createdTime>
+<generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>D1BA0539-B088-0378-3256-C343638FDE2B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_title" id="F6CEBA43-C504-A0F2-6BF9-E346D81ACF5B">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 00:58:08 UTC</createdTime>
+<generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>384D426D-C558-91FC-023A-3BD3A6EEFBC5</referedAttribute>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

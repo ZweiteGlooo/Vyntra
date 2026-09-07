@@ -2,12 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4928BF4-881F-65D9-0820-7DEC3E604300" name="USER">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>061DAB77-004A-9522-062E-183AD623D7A7</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,12 +16,8 @@
 <Attribute name="id_user" id="F2FC3576-BADC-C1AE-3059-D75C5E9C181C">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>B752C49C-D6A1-C6F3-C5B8-46653FD9243E</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -34,12 +26,8 @@
 <Attribute name="full_name" id="A0A36BF7-BE99-98FC-7B5C-CC891E8D2DAA">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>45DB0E49-8DF5-10DA-6FA2-CD8CC0EA7FAC</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,24 +37,16 @@
 <Attribute name="email" id="ED98D892-7941-300F-DC10-36C7CB029F6D">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>17408FD6-6581-9E79-0EF1-72F89475818F</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="password" id="3579234C-C39A-FD2B-D3A1-4050C29B9814">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>6DE4585E-7DDD-79A0-C77B-0223B828D9F4</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -74,11 +54,7 @@
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:47:28 UTC</createdTime>
 <generatorID>E384DAD7-D30E-8D1F-B6A6-B46A0CE3539E</generatorID>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <referedAttribute>CCD297C3-AF70-32F5-A620-EE243D70B589</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -88,12 +64,8 @@
 <identifier id="C689F1A5-FB2C-9CE1-23F4-8AF7147E5C0C" name="USER PK">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>D1198503-7362-BC53-325B-4939E2451555</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F2FC3576-BADC-C1AE-3059-D75C5E9C181C</attributeRef>
@@ -102,12 +74,8 @@
 <identifier id="251FD8E2-208D-343D-2DCD-D4FA67112010" name="EMAIL">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>5B1BBBAC-6CD4-E0AC-829A-4F22580497BD</importedID>
-<engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
-</engineerTo>
 <usedAttributes>
 <attributeRef>ED98D892-7941-300F-DC10-36C7CB029F6D</attributeRef>
 </usedAttributes>

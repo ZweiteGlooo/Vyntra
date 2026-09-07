@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C098F57-7435-BBE6-E14E-6C54E658E207" name="REPRODUCTION_PROGRESS">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:09:50 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_progress" id="17ACA449-875D-7BC2-2E5A-11A7F918AFFF">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:10:15 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile" id="CC36BF20-8CD3-72B5-864C-4685718F047A">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:10:21 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_content" id="BD9BE8A0-681B-0BDA-9ACB-BFEDBD9F8465">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:10:25 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position_seconds" id="497BDFFA-6B35-07A1-3990-6E9BC7136340">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:10:30 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="percentage_viewed" id="3AD7FBAE-6F13-804C-BC79-A6A18CC59ECA">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:10:46 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="update_date" id="4B2575E5-C44E-2A12-D3DD-637C0D428F53">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:11:10 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="finished" id="F826E739-1D46-3684-B6CB-5A9AF1BF3B93">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:11:33 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile1" id="D3A1218C-2A1F-FC2C-981E-42865080B97B">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:16:44 UTC</createdTime>
+<generatorID>C2F3F95E-72A0-F9E3-67FE-DEDB91E18AF4</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>1C1A678B-7422-795E-EF08-5F4D469310F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="5E20016A-9690-BC48-A1CB-08BBC31031F3">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:17:30 UTC</createdTime>
+<generatorID>468FE2AA-43BF-A4F8-36F5-F09B7775335E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A60EC3BC-4D2D-A50F-DC66-FB7C09BB571B" name="REPRODUCTION_PROGRESS PK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:10:19 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17ACA449-875D-7BC2-2E5A-11A7F918AFFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

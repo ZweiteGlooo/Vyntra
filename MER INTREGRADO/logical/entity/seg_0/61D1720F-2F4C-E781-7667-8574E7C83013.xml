@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61D1720F-2F4C-E781-7667-8574E7C83013" name="CAPTION">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:06:11 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_caption" id="3DEF0177-A966-D873-7B79-7B016338E55B">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:06:28 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_content" id="D16BD888-745C-D8FB-A10F-9BD3AE996C37">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:06:36 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="language_id" id="FFD122B7-9E5F-8FAA-C481-5E888DD82C9E">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:06:44 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="available" id="3F8A6F6E-D910-E6F6-4773-F84144FBA3C2">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:07:10 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_language" id="472A993E-ECE7-6562-3450-2E12B1BE1241">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:12:12 UTC</createdTime>
+<generatorID>3665020E-542E-DE69-EBAC-B337F225536B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>72E1F62B-79C1-01E8-424B-8314EDFDED19</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="1BE5ABF9-3E40-AED7-FE73-E1477C24C208">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:19:33 UTC</createdTime>
+<generatorID>AD092538-91B3-4F7E-6322-0A0165600C42</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D7DCC21-1C35-FFE3-7172-B4FFBF9136FD" name="CAPTION PK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:06:34 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DEF0177-A966-D873-7B79-7B016338E55B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

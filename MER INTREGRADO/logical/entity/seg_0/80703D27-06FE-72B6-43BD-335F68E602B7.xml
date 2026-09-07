@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80703D27-06FE-72B6-43BD-335F68E602B7" name="REPRODUCTION">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:02:46 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reproduction" id="AE17B782-2A2D-22DB-C32C-3794933C57EB">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:03:35 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile" id="9D4C7454-3F7C-25D0-95AD-4BC154C1F7CD">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:03:43 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_content" id="61271DC5-AF32-D1F6-F34F-4F2D46E3A71F">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:03:56 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="E864180C-088D-DD7A-C804-EFB864BEEF0B">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:04:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="B938AB45-C57B-2A15-8414-33F66CD48ABF">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:04:46 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quality_reproduction" id="33C7AEA5-62E9-5351-C517-67EFC647E164">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:04:54 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile1" id="28D0FCD1-3493-242A-2941-D4A41BE3BD03">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:14:03 UTC</createdTime>
+<generatorID>F2A36A39-8207-8A67-ABC7-499A948B1A78</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>1C1A678B-7422-795E-EF08-5F4D469310F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="E27F6475-CD7E-FE79-76FF-BCD6851EAF76">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:15:37 UTC</createdTime>
+<generatorID>362E413A-5F81-F3BD-3352-0DA49B0D8A37</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CD34D16-A49F-45AD-2E8A-B073C8E0766F" name="REPRODUCTION PK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:03:42 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE17B782-2A2D-22DB-C32C-3794933C57EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

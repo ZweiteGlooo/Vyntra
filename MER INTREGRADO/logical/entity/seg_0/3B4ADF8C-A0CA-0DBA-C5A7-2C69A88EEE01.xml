@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B4ADF8C-A0CA-0DBA-C5A7-2C69A88EEE01" name="DISCHARGE">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:07:30 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_discharge" id="F22C7434-C1E1-48CF-AABD-F5E7DC747BA1">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:08:21 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile" id="54D42485-EB56-922B-0E7B-61597F3615B4">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:08:30 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_content" id="3B6C775A-BB2B-A913-7B98-4D4EE4208C02">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:08:35 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discharge_date" id="84396097-D33D-7AAA-5A13-AEA79A559491">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:08:40 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiration_date" id="1BDDAEB4-BC79-1310-350E-02EF7CF40352">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:08:50 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="6EC1A7C7-2555-1AA1-084B-DA14107974CF">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:09:10 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile1" id="79FF8B1E-160F-DA8D-B9C1-9F6A1FDDEF4F">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:20:20 UTC</createdTime>
+<generatorID>E5258C95-B636-2F90-E2CD-CFF8AE2EAE40</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>1C1A678B-7422-795E-EF08-5F4D469310F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A224757-1785-9003-1DE9-4DAA899C6D60" name="DISCHARGE PK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-09-07 01:08:28 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F22C7434-C1E1-48CF-AABD-F5E7DC747BA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
