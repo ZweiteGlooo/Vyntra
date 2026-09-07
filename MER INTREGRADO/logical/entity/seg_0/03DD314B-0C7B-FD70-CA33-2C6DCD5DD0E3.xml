@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03DD314B-0C7B-FD70-CA33-2C6DCD5DD0E3" name="REVENUE_BY_PLAN">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_report" id="2EEC6A67-62BD-2C17-3CE3-F32985562D7F">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>660411DF-53F7-E339-72C7-8B25DDFCA327</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plan" id="19E70150-E222-F46B-31B7-F44968946C42">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>0E1647A5-9F3D-215A-80EA-2BE444989A93</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="revenue_amount" id="202CBE9B-F6BC-6225-B3C4-33003C823C4D">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>3966DD0D-5AC8-614F-46CB-2DBFF1A07402</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_report1" id="58046BB4-7308-8C17-1D28-98A51D571182">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>BE21BF6E-1442-C771-8E55-97C07EFE6CE4</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plan1" id="2D29F1EB-749B-7F60-6DFA-CE367C190522">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>BCAE7A6B-404F-DEBC-1FDF-A5F682C0D7D6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_report2" id="7CD78B15-34D6-8DC1-7966-A2744FCDB1BD">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:23:38 UTC</createdTime>
+<generatorID>692259DB-2BD4-BA0F-D090-23D11A3DA6DC</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>C61D7093-3274-7D7E-D5AC-5FF243A2B4A9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plan2" id="CCB4350F-F55C-5DC1-D623-0729CFB11E8C">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:28:48 UTC</createdTime>
+<generatorID>CF341298-2FBD-64E9-19A4-B8300A68D059</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>98E7D99D-A90A-F3D9-9720-93A261EA10C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CD64CAD-9E0E-4329-D1D2-74DB2A85331D" name="REVENUE_BY_PLAN PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:20 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2EEC6A67-62BD-2C17-3CE3-F32985562D7F</attributeRef>
+<attributeRef>19E70150-E222-F46B-31B7-F44968946C42</attributeRef>
+<attributeRef>58046BB4-7308-8C17-1D28-98A51D571182</attributeRef>
+<attributeRef>2D29F1EB-749B-7F60-6DFA-CE367C190522</attributeRef>
+<attributeRef>7CD78B15-34D6-8DC1-7966-A2744FCDB1BD</attributeRef>
+<attributeRef>CCB4350F-F55C-5DC1-D623-0729CFB11E8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

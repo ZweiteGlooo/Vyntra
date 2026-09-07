@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D3A2F9F-033F-BB26-2BD9-D8CEBF1870E5" name="TOP_CONTENT_REPORT">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_report" id="E0D46EFD-DAF6-9F24-21E8-D730922E4E05">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>345DBC1D-DB64-A49A-91FD-AC305499277A</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_title" id="5CCB45EC-1B91-C4E8-9E84-D79777AA0C23">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>E5D95F7D-ED50-3069-BEE9-D252451F4060</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_country" id="4BF51636-C711-7FE4-7FE0-F55FE26DEB61">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>2E587D14-BA60-4E72-A586-6F6414EC6FDD</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="view_count" id="EA458E72-ADF1-5094-D856-C8E43A4AE681">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>EC4570AD-FF93-B59E-7A4D-ABCC07236ADE</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rank" id="37C52868-4BF5-23FA-AB92-635A1910E09D">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>BCC734FF-BEED-55E2-3E45-373E01A68272</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_report1" id="1652DC9C-B4F5-15EC-CE56-6D508C3F661A">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>4110FDC4-AACE-0F9F-0010-5EA26C499208</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="8C9F6889-5F8D-1820-8367-959BBED9598F">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>8E2A7B7E-C5E7-1EF3-B80E-1A0D0D8B747B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_report2" id="7299B8CB-FBF7-33E8-FC35-0E764BFCB479">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:22:24 UTC</createdTime>
+<generatorID>6288BA51-1977-3F29-9A3A-CA949D2FC2FA</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>C61D7093-3274-7D7E-D5AC-5FF243A2B4A9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_country1" id="DF6EB69B-14E2-8EFC-8654-DD10DA697E12">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:27:39 UTC</createdTime>
+<generatorID>9CAE077E-60D4-4452-ACFB-2F32C0E7604C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>CCD297C3-AF70-32F5-A620-EE243D70B589</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D3B77019-E666-00E0-9209-2A2EF22A48EA">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:33:38 UTC</createdTime>
+<generatorID>2482CF9D-55F9-D5B6-F58D-92FC8432C443</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="267E1693-7279-BDB4-C5C2-C080D711111A" name="TOP_CONTENT_REPORT PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:17:16 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0D46EFD-DAF6-9F24-21E8-D730922E4E05</attributeRef>
+<attributeRef>5CCB45EC-1B91-C4E8-9E84-D79777AA0C23</attributeRef>
+<attributeRef>4BF51636-C711-7FE4-7FE0-F55FE26DEB61</attributeRef>
+<attributeRef>1652DC9C-B4F5-15EC-CE56-6D508C3F661A</attributeRef>
+<attributeRef>8C9F6889-5F8D-1820-8367-959BBED9598F</attributeRef>
+<attributeRef>7299B8CB-FBF7-33E8-FC35-0E764BFCB479</attributeRef>
+<attributeRef>DF6EB69B-14E2-8EFC-8654-DD10DA697E12</attributeRef>
+<attributeRef>D3B77019-E666-00E0-9209-2A2EF22A48EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

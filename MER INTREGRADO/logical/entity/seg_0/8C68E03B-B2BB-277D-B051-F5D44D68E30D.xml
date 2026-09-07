@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C68E03B-B2BB-277D-B051-F5D44D68E30D" name="RECOMMENDATION">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_recommendation" id="38E15DD2-0CF9-F44F-0495-CA30A2E21077">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>04F5BADD-F099-D676-25FC-35C8838C6357</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relevance_score" id="FA58214A-D749-5504-D011-DB572538546B">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>129C4285-4066-F5F0-2F6B-B41EB26C208B</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="generated_date" id="386A7713-C03F-A8B4-B258-CE6AD1D80621">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>08BCF10C-ABAB-6B0A-D8C0-36616B954461</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile" id="CB64E005-1117-0A97-EDB9-C7C7FE48C4A9">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>7B4C573F-DCB9-637E-BB18-E180C395D7FB</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_title" id="E0604F4F-2971-8BE8-FD10-4FA4C3C12C01">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>705CA412-F808-96A2-AC99-60A414CABBDD</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile1" id="65779F0A-79E7-C1EE-805A-F66B677CA040">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>83C6CC3A-7612-079F-30A3-69461876A18F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile2" id="406D1D92-35AC-6D54-AED5-11ABEB0A64B9">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:18:58 UTC</createdTime>
+<generatorID>105CCF83-ECD6-394D-ABA7-53597B5D6A3F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>1C1A678B-7422-795E-EF08-5F4D469310F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="BC2FEB06-3C28-A641-90CC-D05F52DD68D6">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:32:43 UTC</createdTime>
+<generatorID>7E3D80C4-04F4-A975-640F-7492D203C8EE</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B50952D-F07D-CBE6-E82D-A9425104A257" name="RECOMMENDATION PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:27 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38E15DD2-0CF9-F44F-0495-CA30A2E21077</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

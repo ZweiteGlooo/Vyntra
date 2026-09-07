@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="504094C3-3234-BFD6-0E62-EE91D5CFD381" name="MONTHLY_REPORT">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_report" id="C61D7093-3274-7D7E-D5AC-5FF243A2B4A9">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>635D62DA-9A7C-3DEA-F474-083F96228F43</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="report_month" id="AF695A27-58F2-3907-59DA-1CD5EDE2011F">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>DA51B249-9CB3-03EB-2F62-57D94CD4565E</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active_users_count" id="0C70E45A-0AC3-AF65-DBD2-25336A8A4DF7">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>6D6DE043-290A-3FAB-0EC3-B2F85BDE6FF2</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="churn_rate" id="8CEF6D35-111C-A114-15E9-F7E8F037CEDF">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>06DE0F4A-50FE-8DBF-714C-84C3B65A76E2</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="generated_date" id="846830F1-F7C5-1B0B-5090-D0999FF47651">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<importedID>A8C61233-4770-CC9F-3ADA-F1BF1C490E13</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="797AF845-0413-CA00-5B96-284C76CB73CA" name="MONTHLY_REPORT PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-07 03:16:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C61D7093-3274-7D7E-D5AC-5FF243A2B4A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
