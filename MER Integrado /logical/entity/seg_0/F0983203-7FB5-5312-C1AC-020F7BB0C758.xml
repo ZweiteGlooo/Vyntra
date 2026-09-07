@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0983203-7FB5-5312-C1AC-020F7BB0C758" name="AVAILABILITY">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<importedID>F6F7BA31-B1B5-C076-67F2-10556C646445</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_title" id="BDDA777C-B5E1-A1BA-763F-CAE8B13B4A26">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<importedID>B6238E10-5DA4-3577-27F4-038B513B1EDF</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_country" id="74E6E4F6-03F5-7F4D-0E84-CDD71349276C">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<importedID>2087EE60-BF74-F2A2-B77F-10EC2216DB2D</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="available_date" id="7E78AAB0-5B9F-915E-E1AD-EACDD17921F7">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<importedID>FDC7DB97-EA1B-1F2F-0119-1340E7B8E74F</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="EDB8D659-6129-5219-0A67-86AD89415B1D">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:52:35 UTC</createdTime>
+<generatorID>31DBFF1B-3CF9-7CFA-9217-88A9CFE8002C</generatorID>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_country1" id="0A5E1156-28D0-355F-F5AF-747CC10B089A">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:52:53 UTC</createdTime>
+<generatorID>BB32D710-5FA0-B4B1-0818-96BA6608754C</generatorID>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<referedAttribute>CCD297C3-AF70-32F5-A620-EE243D70B589</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19B81F7A-2E7C-90F1-E97A-511423C88C46" name="DISPONIBILIDAD PK">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<importedID>CDA4FCF1-0584-7646-59FF-7C77A7269852</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDDA777C-B5E1-A1BA-763F-CAE8B13B4A26</attributeRef>
+<attributeRef>74E6E4F6-03F5-7F4D-0E84-CDD71349276C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

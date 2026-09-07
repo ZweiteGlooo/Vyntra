@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="EBE89554-8B39-EF03-9DF7-9EA5146D5ADF">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-07 00:08:11 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<sourcePk>C2E7C1D0-C7BC-4373-F5EF-49624BBE9C5C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>participates in</nameOnSource>
+<nameOnTarget>includes</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>43ED2A01-697D-4DD5-B53F-3FD41896FB7B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE08AF0F-FDDE-F4B0-0CFF-F6D68150CE05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="84A9222A-2E53-AFD5-AD29-55BBA63727F2">
+<createdBy>valentanga</createdBy>
+<createdTime>2026-09-06 23:37:37 UTC</createdTime>
+<ownerDesignName>MER Integrado </ownerDesignName>
+<importedID>A0554625-D950-4A8D-94B8-3778A630BFA9</importedID>
+<engineerTo>
+<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
+<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>CD8DD520-B450-1A6B-5CEC-49295849C9C2</sourceEntity>
+<targetEntity>0D174A42-E699-5117-DCBF-DADF96F44312</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>
