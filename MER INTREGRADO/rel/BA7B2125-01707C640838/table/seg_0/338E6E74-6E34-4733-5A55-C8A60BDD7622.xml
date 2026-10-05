@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="338E6E74-6E34-4733-5A55-C8A60BDD7622" name="REVENUE_BY_PLAN">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>03DD314B-0C7B-FD70-CA33-2C6DCD5DD0E3</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_report" id="FF85095F-D3CD-C6D4-E568-FA8CA53EEE55">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>2EEC6A67-62BD-2C17-3CE3-F32985562D7F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_plan" id="1CB1215B-1476-2649-7508-AAD5D086E582">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>19E70150-E222-F46B-31B7-F44968946C42</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="revenue_amount" id="A354D31A-9EEB-1CD6-6D01-22CAFDBC754E">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>202CBE9B-F6BC-6225-B3C4-33003C823C4D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHLY_REPORT_id_report" id="DED85032-1FCA-A578-7B1D-F5C06CCA0EA7">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>7CD78B15-34D6-8DC1-7966-A2744FCDB1BD</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FBD2EE2-C665-A88F-85B1-18B487E8337D" referredColumn="EA5AE2B4-81E3-1875-873A-196557AFA77E"/>
+</associations>
+</Column>
+<Column name="PLAN_id_plan" id="55F88EDF-6133-02F8-BE42-D1A2CF1602E3">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>CCB4350F-F55C-5DC1-D623-0729CFB11E8C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4477BFDA-888E-41E7-2323-DDDF4090133B" referredColumn="941DC618-8B30-40D9-3529-FAE3D52C654C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93AB13FF-8C2B-6CE1-4DDA-BE067054B491" name="REVENUE_BY_PLAN_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>3CD64CAD-9E0E-4329-D1D2-74DB2A85331D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF85095F-D3CD-C6D4-E568-FA8CA53EEE55"/>
+<colUsage columnID="1CB1215B-1476-2649-7508-AAD5D086E582"/>
+<colUsage columnID="DED85032-1FCA-A578-7B1D-F5C06CCA0EA7"/>
+<colUsage columnID="55F88EDF-6133-02F8-BE42-D1A2CF1602E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEE11A4A-F8C3-C55C-3926-EFF72D872F91" name="REVENUE_BY_PLAN_MONTHLY_REPORT_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>692259DB-2BD4-BA0F-D090-23D11A3DA6DC</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DED85032-1FCA-A578-7B1D-F5C06CCA0EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5434D3C-EE49-E9E0-7E69-07BBFE1EC7DB" name="REVENUE_BY_PLAN_PLAN_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>CF341298-2FBD-64E9-19A4-B8300A68D059</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55F88EDF-6133-02F8-BE42-D1A2CF1602E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

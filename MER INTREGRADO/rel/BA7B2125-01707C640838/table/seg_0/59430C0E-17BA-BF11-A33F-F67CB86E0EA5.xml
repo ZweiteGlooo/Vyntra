@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59430C0E-17BA-BF11-A33F-F67CB86E0EA5" name="PROMO_CODE">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>669D8BBD-E237-2B48-1551-26BA4F4155A8</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promo_code" id="556BF4DB-57F8-02D7-FF4E-3F04F9AB5342">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>F4109777-E7BB-1F97-06B9-CB86436CD5B9</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="7485D64A-5D9D-E487-EC53-4592D91472E1">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>4170C061-326C-8136-C7FB-1B23FD2A97D8</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount_type" id="605FC796-B9C6-1CE3-E957-65B5B4EA8078">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>64460C54-9DAF-23EB-6220-A1FBBBE2FD82</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount_value" id="E8489A22-B538-BBE9-5665-2AE619ECE737">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>988324D6-342C-0514-E1D5-C982D70EA385</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_from" id="F827ED62-4E24-6626-E18E-56DFE0E49FCC">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>C9E70203-B788-9BAB-1C8C-1C62B268EEFF</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valid_to" id="BB2688F3-AD2C-0463-1825-F2D2F46023B7">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>ECBD1E18-3EFD-F9CC-FB14-B47FC328404E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_uses" id="70545275-1F21-4C8E-A456-1FAF97AFCDF3">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>146EAE30-7B34-EF82-CBC3-7EC22C8DD3A6</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uses_count" id="70835CFC-5857-D303-DA28-B0F20ACF4437">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>E9E0381F-B20D-388F-6E1E-01985E1C8719</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="32068BF3-8022-B02A-902B-B92B7A80CDE6">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>81DD95D7-6AE1-7FFF-CCF2-FE4BEB3016BF</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F73FA20-F3FD-E77F-796A-680230232DAF" name="PROMO_CODE_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>DB2196E2-E42B-EE83-B2F2-AA27B11B9935</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="556BF4DB-57F8-02D7-FF4E-3F04F9AB5342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="416B09A9-B847-3EC7-C986-40633A314385" name="LANGUAGE">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>94D0D8CA-30F9-DE43-82F5-269C190E08B8</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_language" id="CF6D05AB-8CCA-FD9E-281D-5873DBDEC264">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>72E1F62B-79C1-01E8-424B-8314EDFDED19</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="AFAFA535-FF70-A3EC-21E4-6BD75EE60E55">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>1DC97304-A864-3B60-04F3-1BC700F0D6B6</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="F031A046-36D9-2537-0755-AE24C360B67D">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>EE063480-F982-9C16-C4C2-2784A9D8F8C9</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBA5458E-58F1-5F66-91ED-91DDE1D47DFF" name="LANGUAGE_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>1232179A-46FE-1290-B319-0C7873F5BA8F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF6D05AB-8CCA-FD9E-281D-5873DBDEC264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

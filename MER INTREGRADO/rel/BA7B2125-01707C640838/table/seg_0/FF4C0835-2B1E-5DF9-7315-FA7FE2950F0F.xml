@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF4C0835-2B1E-5DF9-7315-FA7FE2950F0F" name="PARTICIPATION">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>EE08AF0F-FDDE-F4B0-0CFF-F6D68150CE05</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_title" id="6A388802-C66E-E6FA-CD08-B9317B957A70">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>1B1FCB30-489D-23AF-4016-382144EACC18</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_actor" id="4618F010-FF63-CA39-0FDB-83572B83D305">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>14A24FC2-246B-24DA-5030-DFD68B58506D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="character" id="CEBF71A2-A3B9-85AD-A2F8-935A7539F399">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>7F77E685-1DAA-9157-3978-B66C1599609D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_actor1" id="3F7DCE41-4FCB-D7C0-DEBB-2CC8C18AEE0F">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>0EBB83B8-A226-5B3A-7D31-002EF89F2D78</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE_id" id="5BC64628-4C8E-56E2-DFCB-D263B0B70504">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>DD5482E8-2FF1-F2E7-B70A-E37DBBDEEF75</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="997C98D8-09CC-03D5-F271-52823B548394" referredColumn="050D1DB5-B4B9-7A6B-99DC-926B73EFFEBE"/>
+</associations>
+</Column>
+<Column name="ACTOR_id_actor" id="1D3B663B-AC03-9B81-5268-8B7402248E05">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>CAFCC26F-E95C-1BC3-45C2-C6D918B36223</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="506FAD33-5551-B913-548C-D197AE46FA17" referredColumn="9223A49B-7F07-AC20-8D83-0BBA4EDB40C0"/>
+</associations>
+</Column>
+<Column name="id_plan" id="317E42A8-A59A-0A35-4031-B0B1D1D6FB6C">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>CF7E4106-ED90-FEA8-3015-0CE602AADF67</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A0E5D69-F86B-5305-AD74-1939FF5C64A1" name="PARTICIPATION_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>2C2CF634-B494-7786-D0BB-110E5B6361FB</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A388802-C66E-E6FA-CD08-B9317B957A70"/>
+<colUsage columnID="4618F010-FF63-CA39-0FDB-83572B83D305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE10DA2F-B43B-6898-B08A-7ED9FE026B30" name="PARTICIPATION_TITLE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>C0527937-DFA1-DF8D-0446-E1A649E54CB8</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BC64628-4C8E-56E2-DFCB-D263B0B70504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98BA682C-C933-0D6B-7D6D-94C266AD9545" name="PARTICIPATION_ACTOR_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>EBE89554-8B39-EF03-9DF7-9EA5146D5ADF</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D3B663B-AC03-9B81-5268-8B7402248E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

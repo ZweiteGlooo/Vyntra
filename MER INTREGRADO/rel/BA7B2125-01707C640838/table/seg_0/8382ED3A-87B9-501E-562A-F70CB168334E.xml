@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8382ED3A-87B9-501E-562A-F70CB168334E" name="TV_SHOW">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>85D33135-C563-6917-2496-00FBA1A4977B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="47448089-78A5-59E3-DEC3-D6EE92D09761">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73E16C8F-9E9D-DED6-6372-5D8A6390C5BA" referredColumn="050D1DB5-B4B9-7A6B-99DC-926B73EFFEBE"/>
+</associations>
+</Column>
+<Column name="id_user" id="59C1AC88-D8C6-AD51-2612-20A12D9BCFE0">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>AD13CEEF-05FF-49FF-7FB2-39A43BFDAC1F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_episode" id="DE08CF3B-EB43-2FEE-BBB0-B46434D71B0F">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>44D55617-CF25-7224-FA67-69472BAE7E23</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_title" id="41031AA4-CAEA-961C-E81A-7317FBC49346">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>F6CEBA43-C504-A0F2-6BF9-E346D81ACF5B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D543F84-F5B3-CC7B-1D9D-6B6374935A19" name="TV_SHOW_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>2DDB1CD4-82A1-6BFF-BEDC-916740E3501C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47448089-78A5-59E3-DEC3-D6EE92D09761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F61B81F-7FFD-B993-4888-2BB77F5DE2BE" name="TV_SHOW_TITLE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>13486816-6BAB-781E-BF03-CE3B98318305</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47448089-78A5-59E3-DEC3-D6EE92D09761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

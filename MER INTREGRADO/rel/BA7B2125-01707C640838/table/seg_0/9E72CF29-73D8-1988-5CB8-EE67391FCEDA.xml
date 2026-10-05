@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E72CF29-73D8-1988-5CB8-EE67391FCEDA" name="PAYMENT">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>CC994664-9F78-65D7-6112-D2CE90FD66B6</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_payment" id="C70A6745-C75D-B975-9088-87B0188B73BE">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>BA7025B3-E165-9E00-08E3-B257106AED78</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBSCRIPTION_id_subscription" id="64C7E00E-4357-1533-1A21-D69725368968">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>263595A2-DED0-3711-5328-EB565F5B517F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFCF9784-1D7A-4DDE-F034-9D7D6F667A10" referredColumn="ED099C12-CEDC-8491-517C-A0B9B10C6149"/>
+</associations>
+</Column>
+<Column name="PAYMENT_METHOD_id_payment_method" id="F2DA22D8-2E9A-579A-2D85-3AAF0935684B">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>2C5509C3-64B2-0BD7-F354-1F7368E5227E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74D3892D-E458-DE34-BDF7-969AF5C20A51" referredColumn="937BB869-7111-EF92-D837-D13B742F94D8"/>
+</associations>
+</Column>
+<Column name="PROMO_CODE_id_promo_code" id="EFBE596F-EC6E-093B-B101-037704862600">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>551B4576-B10E-5A95-3559-E52F417DE434</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68A13939-A247-6879-B1CE-5436ACCD33D3" referredColumn="556BF4DB-57F8-02D7-FF4E-3F04F9AB5342"/>
+</associations>
+</Column>
+<Column name="amount" id="AB8481FC-A35A-73E1-468F-2990DE835CC4">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>165CD86F-F6AA-C6A9-A74A-9CDB8F12E393</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="billing_period_start" id="8E783B26-6879-2293-02BD-514E07ACB409">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>B16868F9-AA37-CBEF-3DA7-92C693DB5F6F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="billing_period_end" id="6ACF9F15-B695-CEA2-A074-8D67DA6B95D4">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>D6DEB11C-4842-C2AC-6B7B-CAE1284D8A5F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="26862600-CCF1-F3EE-34A4-6A14048D916E">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>32BC894D-C3FD-5A65-8166-3FDBD80D29FD</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invoice_number" id="ECE55B4A-0A1D-9F1A-1522-791C57A9A798">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>2903811B-4327-FA5F-606A-FCF278C34055</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="6CA6FDA6-2181-B85C-DF20-70AFCB28FF86">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>8A1C77FD-E972-32D9-88D8-66E5362C6F49</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76494A08-D874-E327-B979-6B98B8425DE8" name="PAYMENT_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>A0D9F457-97BB-E4DC-F56F-10A9E3084671</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C70A6745-C75D-B975-9088-87B0188B73BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48AB5227-F3D5-7B76-F75A-E157ABA65EA8" name="PAYMENT_PAYMENT_METHOD_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>D689585A-0A28-4515-F1BC-1236738B98ED</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2DA22D8-2E9A-579A-2D85-3AAF0935684B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="198DF601-0F01-29F9-05AC-39C38F5A16D8" name="PAYMENT_PROMO_CODE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>3202C7C2-CDA7-ED6F-09D3-467F704904BC</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBE596F-EC6E-093B-B101-037704862600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C448082E-35D0-E1D1-F624-D4F4986C11EF" name="PAYMENT_SUBSCRIPTION_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>6E2E9C35-372F-FC9C-97F2-CED5C4FF7E61</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C7E00E-4357-1533-1A21-D69725368968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

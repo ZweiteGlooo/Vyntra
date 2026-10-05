@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E362745A-CBD0-1E37-32D8-1A2A0A725BA7" name="USER">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>F4928BF4-881F-65D9-0820-7DEC3E604300</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="E77C8DCD-99B2-68FF-D694-32ACF9B33CB5">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>F2FC3576-BADC-C1AE-3059-D75C5E9C181C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="7C276D8F-41C9-B4A5-BA4B-EC004B37DF96">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>A0A36BF7-BE99-98FC-7B5C-CC891E8D2DAA</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="9C633921-5D84-942A-BA87-B886B25DD1C3">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>ED98D892-7941-300F-DC10-36C7CB029F6D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="97A2EE1D-0F00-30DA-A381-A843379CF337">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>3579234C-C39A-FD2B-D3A1-4050C29B9814</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_id_country" id="D3214434-26A6-1EDF-3122-4CBC74FEBE67">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>0D02AF58-9BF3-E43D-3A9C-3E6665BFB251</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD2EDE5F-B56B-3BCC-5693-CEAB889D5E8C" referredColumn="FFD26C97-86D7-72FF-87C3-9AC0ACDEA7BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D858B72-7DF2-676A-103C-5444E495F97D" name="USER_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>C689F1A5-FB2C-9CE1-23F4-8AF7147E5C0C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E77C8DCD-99B2-68FF-D694-32ACF9B33CB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51B04DFB-37D6-6F37-4B63-6C64055BF570" name="USER_email_UN">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>251FD8E2-208D-343D-2DCD-D4FA67112010</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C633921-5D84-942A-BA87-B886B25DD1C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA7DCAF3-409F-BB51-B70A-953F862945E1" name="USER_COUNTRY_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>E384DAD7-D30E-8D1F-B6A6-B46A0CE3539E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3214434-26A6-1EDF-3122-4CBC74FEBE67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

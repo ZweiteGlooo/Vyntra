@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="497F8452-770A-DF3F-916F-0287B07FF3A7" name="CLASSIFICATION">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>9E2F9345-6E1E-9BD8-F5EA-A7021D3D1B22</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_title" id="047398B1-32F3-8C7D-040B-15A9F1F208EE">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>CF2EE179-BB83-30C3-B575-81DF665B095A</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_genre" id="C4A70F1B-98DE-7B5C-AA22-79DFFC68BCC9">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>214BC6A2-8517-1452-411D-F83ED167AE8D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENRE_id_genre" id="14E111D2-A82C-832D-A945-E03FA4F4F6ED">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>85983CC2-43D7-7B82-DEF7-F864EF34F101</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA83F804-AD69-4390-064E-7546FB48A288" referredColumn="B2E98D65-1F4A-5531-7271-E6FF6D7B15B4"/>
+</associations>
+</Column>
+<Column name="TITLE_id" id="0CA25B47-11AB-02EE-F08B-DF07E0D63A45">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>66448FA7-DE1A-8BA3-3110-4A1B78FC22DD</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D7AA18A-ECD6-1189-F189-660A88A02DC9" referredColumn="050D1DB5-B4B9-7A6B-99DC-926B73EFFEBE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FB16B66-A111-21E4-6F27-33C3E62D6071" name="CLASSIFICATION_PK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>630B8F28-BEEC-2C8C-79E8-01329DF60C42</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="047398B1-32F3-8C7D-040B-15A9F1F208EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A0E14B3-8D1F-4D10-1C73-4B40B4917976" name="CLASSIFICATION_GENRE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>D855D618-0DD2-69BD-AA76-583C62CA69D5</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E111D2-A82C-832D-A945-E03FA4F4F6ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4086925-4D78-90B1-FAC2-6581EBFD3EB0" name="CLASSIFICATION_TITLE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>39555AA9-8825-4BF9-1EB5-5C19326EBA6E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CA25B47-11AB-02EE-F08B-DF07E0D63A45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
