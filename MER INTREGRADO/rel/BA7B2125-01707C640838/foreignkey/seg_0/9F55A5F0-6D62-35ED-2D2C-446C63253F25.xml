@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F55A5F0-6D62-35ED-2D2C-446C63253F25" containerWithKeyObject="83258FFA-DCEF-6C31-B798-DB26BFD00445" localFKIndex="1FBAD621-5CDD-63D3-480D-5CB48AD1D1CE" name="DISCHARGE_PROFILE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>E5258C95-B636-2F90-E2CD-CFF8AE2EAE40</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>PROFILE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F496719-6CF1-8258-E0CC-7D3E239E2D35</referredTableID>
+<keyObject>CE9245EF-FC70-9646-A807-1C1043552683</keyObject>
+<referredKeyID>CE9245EF-FC70-9646-A807-1C1043552683</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profile</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA83F804-AD69-4390-064E-7546FB48A288" containerWithKeyObject="497F8452-770A-DF3F-916F-0287B07FF3A7" localFKIndex="6A0E14B3-8D1F-4D10-1C73-4B40B4917976" name="CLASSIFICATION_GENRE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>D855D618-0DD2-69BD-AA76-583C62CA69D5</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>GENRE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D50FDA12-2146-9F16-2192-BDE40D176B3D</referredTableID>
+<keyObject>5D6C75ED-8364-6F9B-671D-6F570C092766</keyObject>
+<referredKeyID>5D6C75ED-8364-6F9B-671D-6F570C092766</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_genre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

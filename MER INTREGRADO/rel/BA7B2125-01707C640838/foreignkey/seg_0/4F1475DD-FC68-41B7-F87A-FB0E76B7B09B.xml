@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F1475DD-FC68-41B7-F87A-FB0E76B7B09B" containerWithKeyObject="3F496719-6CF1-8258-E0CC-7D3E239E2D35" localFKIndex="CFE278C0-A572-C64D-99C0-EEFF51C9F33F" name="PROFILE_SUBSCRIPTION_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>4178FFA8-9D7D-A382-371A-6DF8A7EC1D68</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>SUBSCRIPTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C6675F7-63A0-F7E9-360B-07A89BB0F63C</referredTableID>
+<keyObject>71A131FA-22B4-3CC0-1B86-96A337E20885</keyObject>
+<referredKeyID>71A131FA-22B4-3CC0-1B86-96A337E20885</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_subscription</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

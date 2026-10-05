@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FBD2EE2-C665-A88F-85B1-18B487E8337D" containerWithKeyObject="338E6E74-6E34-4733-5A55-C8A60BDD7622" localFKIndex="AEE11A4A-F8C3-C55C-3926-EFF72D872F91" name="REVENUE_BY_PLAN_MONTHLY_REPORT_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>692259DB-2BD4-BA0F-D090-23D11A3DA6DC</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>MONTHLY_REPORT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>396E0517-5B3A-E2D2-38F2-FEF55F51B650</referredTableID>
+<keyObject>4FEF2413-78CD-4B05-1B0A-6B71CC64187D</keyObject>
+<referredKeyID>4FEF2413-78CD-4B05-1B0A-6B71CC64187D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_report</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

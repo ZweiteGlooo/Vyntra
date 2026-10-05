@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68A13939-A247-6879-B1CE-5436ACCD33D3" containerWithKeyObject="9E72CF29-73D8-1988-5CB8-EE67391FCEDA" localFKIndex="198DF601-0F01-29F9-05AC-39C38F5A16D8" name="PAYMENT_PROMO_CODE_FK">
+<createdBy>nicolasmejia</createdBy>
+<createdTime>2026-09-30 17:16:33 UTC</createdTime>
+<generatorID>3202C7C2-CDA7-ED6F-09D3-467F704904BC</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>PROMO_CODE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59430C0E-17BA-BF11-A33F-F67CB86E0EA5</referredTableID>
+<keyObject>8F73FA20-F3FD-E77F-796A-680230232DAF</keyObject>
+<referredKeyID>8F73FA20-F3FD-E77F-796A-680230232DAF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_promo_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
