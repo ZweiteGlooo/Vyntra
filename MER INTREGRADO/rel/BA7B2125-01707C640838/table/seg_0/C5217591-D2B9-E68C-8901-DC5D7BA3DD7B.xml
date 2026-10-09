@@ -13,8 +13,11 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>17ACA449-875D-7BC2-2E5A-11A7F918AFFF</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="position_seconds" id="5D92C0A0-1EF8-219C-7D3B-46BB4A2E5CB4">
@@ -22,8 +25,11 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>497BDFFA-6B35-07A1-3990-6E9BC7136340</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="percentage_viewed" id="2368A50C-C102-530B-8584-52C345573F07">
@@ -31,8 +37,12 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>3AD7FBAE-6F13-804C-BC79-A6A18CC59ECA</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="update_date" id="5DAFD6A0-479B-D488-DBD9-A4B5F8682D6F">
@@ -40,7 +50,9 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>4B2575E5-C44E-2A12-D3DD-637C0D428F53</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -49,8 +61,11 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>F826E739-1D46-3684-B6CB-5A9AF1BF3B93</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PROFILE_id_profile" id="022B1AD7-3336-C3CE-73C0-5E4665438749">

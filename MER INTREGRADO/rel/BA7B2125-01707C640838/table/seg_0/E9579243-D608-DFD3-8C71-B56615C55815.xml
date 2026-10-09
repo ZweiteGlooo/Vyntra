@@ -13,8 +13,11 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>3DEF0177-A966-D873-7B79-7B016338E55B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="available" id="DD76B405-61C0-34E2-13DF-25EF21C5DD45">
@@ -22,8 +25,11 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>3F8A6F6E-D910-E6F6-4773-F84144FBA3C2</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LANGUAGE_id_language" id="27029703-C18F-2378-C1F8-6317DD570D11">
@@ -31,7 +37,9 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>472A993E-ECE7-6562-3450-2E12B1BE1241</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

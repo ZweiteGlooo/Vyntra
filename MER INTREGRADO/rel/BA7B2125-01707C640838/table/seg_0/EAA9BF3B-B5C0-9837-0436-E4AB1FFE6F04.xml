@@ -13,7 +13,9 @@
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>5A6C2D83-388B-CB0E-99B8-9F229425D301</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
