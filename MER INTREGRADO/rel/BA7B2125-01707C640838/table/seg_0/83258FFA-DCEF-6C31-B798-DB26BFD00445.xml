@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83258FFA-DCEF-6C31-B798-DB26BFD00445" name="DISCHARGE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83258FFA-DCEF-6C31-B798-DB26BFD00445" name="DOWNLOADS">
 <createdBy>nicolasmejia</createdBy>
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>3B4ADF8C-A0CA-0DBA-C5A7-2C69A88EEE01</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>discharge</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -69,6 +70,17 @@
 <colAssociation fkAssociation="9F55A5F0-6D62-35ED-2D2C-446C63253F25" referredColumn="6EFE2E65-194D-764F-B8D4-4D39EB0817C9"/>
 </associations>
 </Column>
+<Column name="id_title" id="F958FF4E-98DF-1A3A-541B-67C4DF3F79E5">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-10-10 02:37:23 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00612120-33B8-9521-CDB6-576790296D77" referredColumn="050D1DB5-B4B9-7A6B-99DC-926B73EFFEBE"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="46C6A9E2-BE32-B6A1-5405-B5C34524C457" name="DISCHARGE_PK">
@@ -92,6 +104,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="13A01020-0BC5-FD9F-6EEA-47E3938272E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1066CC80-316E-B59A-17DF-D2E708C87583" name="DOWNLOADS_TITLE_FK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-10-10 02:37:23 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F958FF4E-98DF-1A3A-541B-67C4DF3F79E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

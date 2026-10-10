@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="563A3FCD-C049-2264-C080-BE6A967849B6" containerWithKeyObject="5A36FB27-37D3-F992-6EED-472FE56D1770" localFKIndex="088E47A6-DF26-9103-8A67-739815215B2A" name="REPRODUCTIONS_CAPTIONS_FK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-10-10 02:35:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>CAPTIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9579243-D608-DFD3-8C71-B56615C55815</referredTableID>
+<keyObject>011BABE9-9AB9-C37F-E8EC-3D05C12827F6</keyObject>
+<referredKeyID>011BABE9-9AB9-C37F-E8EC-3D05C12827F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_caption</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

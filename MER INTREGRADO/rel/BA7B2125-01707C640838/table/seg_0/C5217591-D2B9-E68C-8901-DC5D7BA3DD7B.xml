@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5217591-D2B9-E68C-8901-DC5D7BA3DD7B" name="REPRODUCTION_PROGRESS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5217591-D2B9-E68C-8901-DC5D7BA3DD7B" name="REPRODUCTIONS_PROGRESS">
 <createdBy>nicolasmejia</createdBy>
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>5C098F57-7435-BBE6-E14E-6C54E658E207</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>reproduction_progress</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -30,19 +31,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="percentage_viewed" id="2368A50C-C102-530B-8584-52C345573F07">
-<createdBy>nicolasmejia</createdBy>
-<createdTime>2026-09-30 17:16:33 UTC</createdTime>
-<generatorID>3AD7FBAE-6F13-804C-BC79-A6A18CC59ECA</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="update_date" id="5DAFD6A0-479B-D488-DBD9-A4B5F8682D6F">
@@ -108,6 +96,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50DCDFC4-6DAC-CB5C-F420-9CA92138EB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63E200A2-5F8D-6DFE-F2A6-007FE57FB8B3" name="REPRODUCTIONS_PROGRESS__UN">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-10-10 02:26:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022B1AD7-3336-C3CE-73C0-5E4665438749"/>
+<colUsage columnID="2D0C9A55-7F36-1631-9605-8A78E3691732"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B6CC464C-2090-EC83-0192-20FC3D87CF5F" name="REPRODUCTION_PROGRESS_PROFILE_FK">

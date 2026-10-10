@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAA9BF3B-B5C0-9837-0436-E4AB1FFE6F04" name="FAVORITE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAA9BF3B-B5C0-9837-0436-E4AB1FFE6F04" name="FAVORITES">
 <createdBy>nicolasmejia</createdBy>
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>AC574D34-E24B-BAA2-C1F1-53740AC5751B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>favorite</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

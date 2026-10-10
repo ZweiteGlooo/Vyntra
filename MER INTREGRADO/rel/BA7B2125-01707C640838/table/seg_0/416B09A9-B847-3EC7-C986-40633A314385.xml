@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="416B09A9-B847-3EC7-C986-40633A314385" name="LANGUAGE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="416B09A9-B847-3EC7-C986-40633A314385" name="LANGUAGES">
 <createdBy>nicolasmejia</createdBy>
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>94D0D8CA-30F9-DE43-82F5-269C190E08B8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>language</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

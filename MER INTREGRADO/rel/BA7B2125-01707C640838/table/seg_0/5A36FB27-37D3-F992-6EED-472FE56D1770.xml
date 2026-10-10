@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A36FB27-37D3-F992-6EED-472FE56D1770" name="REPRODUCTION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A36FB27-37D3-F992-6EED-472FE56D1770" name="REPRODUCTIONS">
 <createdBy>nicolasmejia</createdBy>
 <createdTime>2026-09-30 17:16:33 UTC</createdTime>
 <generatorID>80703D27-06FE-72B6-43BD-335F68E602B7</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>reproduction</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -27,7 +28,7 @@
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -38,7 +39,7 @@
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -82,6 +83,20 @@
 <colAssociation fkAssociation="BB990B4C-9C67-EFDA-B97B-BBB1DC3E8AB6" referredColumn="050D1DB5-B4B9-7A6B-99DC-926B73EFFEBE"/>
 </associations>
 </Column>
+<Column name="id_caption" id="58F862EB-58BE-9667-4D4D-8C164B709985">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-10-10 02:35:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="563A3FCD-C049-2264-C080-BE6A967849B6" referredColumn="EAF8D9F7-4E13-1117-5C61-973A7000C171"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6E868F00-8EA7-3D6E-1B6B-82AFDBB63110" name="REPRODUCTION_PK">
@@ -116,6 +131,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EDE41DCF-8AEB-CC70-C4A4-FC7F3E2230F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="088E47A6-DF26-9103-8A67-739815215B2A" name="REPRODUCTIONS_CAPTIONS_FK">
+<createdBy>Isabella</createdBy>
+<createdTime>2026-10-10 02:35:53 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58F862EB-58BE-9667-4D4D-8C164B709985"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
