@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="619EA6FE-0D1F-1B5A-3A5F-906FEBB660CF" name="USER">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>F4928BF4-881F-65D9-0820-7DEC3E604300</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="946AED7D-5C85-741A-07A9-DCA515A402DA">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>F2FC3576-BADC-C1AE-3059-D75C5E9C181C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="9938D9C9-FE74-529E-5B2C-BD420A8E645A">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>A0A36BF7-BE99-98FC-7B5C-CC891E8D2DAA</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E5915804-4B56-F67F-BFA9-4CB07A0A7187">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>ED98D892-7941-300F-DC10-36C7CB029F6D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="0C265B62-EE86-9A70-FA7F-401394674713">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>3579234C-C39A-FD2B-D3A1-4050C29B9814</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_id_country" id="5CA4456A-8C8E-39F1-50B5-6D776FE36C57">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>0D02AF58-9BF3-E43D-3A9C-3E6665BFB251</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F426BD4-E644-430D-C2F9-7C2527569C6A" referredColumn="444FF73A-8FCD-E4DE-C289-3B95E846E04B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9357CF0E-DC20-C81F-F323-77A03158BA2E" name="USER_PK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>C689F1A5-FB2C-9CE1-23F4-8AF7147E5C0C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="946AED7D-5C85-741A-07A9-DCA515A402DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B0F0741-8214-252B-2623-B6B7BB87161F" name="USER_email_UN">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>251FD8E2-208D-343D-2DCD-D4FA67112010</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5915804-4B56-F67F-BFA9-4CB07A0A7187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B09DF1BF-7500-35C9-D417-4387CDA0C032" name="USER_COUNTRY_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>E384DAD7-D30E-8D1F-B6A6-B46A0CE3539E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA4456A-8C8E-39F1-50B5-6D776FE36C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

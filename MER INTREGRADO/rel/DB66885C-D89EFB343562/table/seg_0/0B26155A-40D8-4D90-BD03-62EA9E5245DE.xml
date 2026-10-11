@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B26155A-40D8-4D90-BD03-62EA9E5245DE" name="CLASSIFICATION">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>9E2F9345-6E1E-9BD8-F5EA-A7021D3D1B22</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_title" id="8B746226-7BE2-FC6F-673C-65FC1179569D">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>CF2EE179-BB83-30C3-B575-81DF665B095A</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_genre" id="927074A7-4802-ED90-9D9F-BE15A0BEC410">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>214BC6A2-8517-1452-411D-F83ED167AE8D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENRE_id_genre" id="98F39A2A-1E12-8FD7-9F46-654152F4C749">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>85983CC2-43D7-7B82-DEF7-F864EF34F101</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A3D6F90-FB51-93A1-A475-FB41614C053F" referredColumn="38FB7F74-DE45-5A04-B8C0-CAB6DA2C7FE6"/>
+</associations>
+</Column>
+<Column name="TITLE_id" id="E923F154-DF9A-7564-77DA-A3E96BB905E1">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>66448FA7-DE1A-8BA3-3110-4A1B78FC22DD</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89458198-86D3-1D3A-E63C-C93AF00F9DEA" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAC39AD0-77DB-9DA3-52EE-0B1CD698F348" name="CLASSIFICATION_PK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>630B8F28-BEEC-2C8C-79E8-01329DF60C42</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B746226-7BE2-FC6F-673C-65FC1179569D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C68949-7586-8F8A-3D19-9DC0128F1934" name="CLASSIFICATION_GENRE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>D855D618-0DD2-69BD-AA76-583C62CA69D5</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98F39A2A-1E12-8FD7-9F46-654152F4C749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6E56829-B049-091C-D5A1-EDD0C1E5AD3F" name="CLASSIFICATION_TITLE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:55 UTC</createdTime>
+<generatorID>39555AA9-8825-4BF9-1EB5-5C19326EBA6E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E923F154-DF9A-7564-77DA-A3E96BB905E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

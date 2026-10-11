@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F94125F4-9F25-4C1C-22CB-170361F27651" containerWithKeyObject="4E11526A-A28E-6A55-A0D6-50F0ECE34AF2" localFKIndex="F96146DB-AE92-8452-7354-48433F353502" name="CAPTION_LANGUAGE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>3665020E-542E-DE69-EBAC-B337F225536B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>LANGUAGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60B74950-079F-EA6C-F819-43D1F3B5071C</referredTableID>
+<keyObject>3D731503-8056-EC08-DB71-C8DAA19CF973</keyObject>
+<referredKeyID>3D731503-8056-EC08-DB71-C8DAA19CF973</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_language</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

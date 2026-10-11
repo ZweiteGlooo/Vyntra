@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6495B404-A504-650A-E35A-866AE36F0B83" containerWithKeyObject="3BEC4952-A970-C1C6-880F-9649FA6F3AA8" localFKIndex="79C2EF0B-7D81-9DC9-4E57-0FB6285ABC13" name="TOP_CONTENT_REPORT_MONTHLY_REPORT_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:55 UTC</createdTime>
+<generatorID>6288BA51-1977-3F29-9A3A-CA949D2FC2FA</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>MONTHLY_REPORT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C0869F3B-8FD2-2D04-05D7-6F3FA059AD69</referredTableID>
+<keyObject>31EFF986-9C6C-9CF6-A46D-6696BBD71876</keyObject>
+<referredKeyID>31EFF986-9C6C-9CF6-A46D-6696BBD71876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_report</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

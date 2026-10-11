@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55EA252F-7448-8D14-A05D-22C31F74BA2D" name="PARTICIPATION">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>EE08AF0F-FDDE-F4B0-0CFF-F6D68150CE05</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_title" id="B348B8DC-9CCF-2ACB-EEA1-490BDCF8D4AB">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>1B1FCB30-489D-23AF-4016-382144EACC18</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_actor" id="F01D640D-B75C-9917-7832-2956BE6AB560">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>14A24FC2-246B-24DA-5030-DFD68B58506D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="character" id="6FC9A7C4-AF76-F424-5F8E-E83C41A5ABA5">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>7F77E685-1DAA-9157-3978-B66C1599609D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_actor1" id="3822F864-8324-AD54-AA85-BB2AE7088F7E">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>0EBB83B8-A226-5B3A-7D31-002EF89F2D78</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE_id" id="505B1EA2-4799-2492-D34E-EFA74594069F">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>DD5482E8-2FF1-F2E7-B70A-E37DBBDEEF75</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0E57911-88B4-9A0E-E379-571C270103F4" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
+</associations>
+</Column>
+<Column name="ACTOR_id_actor" id="E3FEED2C-1A8A-9DDB-3F3D-0FE1915952E2">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>CAFCC26F-E95C-1BC3-45C2-C6D918B36223</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B89826AC-D6C2-6F6A-1A51-FB5263A94603" referredColumn="AED6EA69-E434-0458-F638-4A00C1DA08E9"/>
+</associations>
+</Column>
+<Column name="id_plan" id="EDD38589-FE76-E286-0638-AE2556E796A8">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>CF7E4106-ED90-FEA8-3015-0CE602AADF67</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD196615-FDCB-52E8-CD85-EB804812FCA3" name="PARTICIPATION_PK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>2C2CF634-B494-7786-D0BB-110E5B6361FB</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B348B8DC-9CCF-2ACB-EEA1-490BDCF8D4AB"/>
+<colUsage columnID="F01D640D-B75C-9917-7832-2956BE6AB560"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92BB3302-4761-C3BB-EC5A-AA4090D8DCA9" name="PARTICIPATION_TITLE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>C0527937-DFA1-DF8D-0446-E1A649E54CB8</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="505B1EA2-4799-2492-D34E-EFA74594069F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A232E3D-C161-0FC4-01DF-DA4AC22421E6" name="PARTICIPATION_ACTOR_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:55 UTC</createdTime>
+<generatorID>EBE89554-8B39-EF03-9DF7-9EA5146D5ADF</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3FEED2C-1A8A-9DDB-3F3D-0FE1915952E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

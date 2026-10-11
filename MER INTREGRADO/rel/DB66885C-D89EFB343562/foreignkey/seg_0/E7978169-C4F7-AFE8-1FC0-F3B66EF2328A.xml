@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7978169-C4F7-AFE8-1FC0-F3B66EF2328A" containerWithKeyObject="1537D0D9-1561-F4F5-3EF9-1763A06C77C6" localFKIndex="A5C652A5-1555-6DE2-9FEE-5E98CC9EF815" name="TV_SHOW_TITLE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>13486816-6BAB-781E-BF03-CE3B98318305</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>TITLE</referredTableLongName>
+<arc>27750781-5D23-1F24-A604-EAC875D143AB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77DA1CE7-C3BA-2661-477B-688FFB6E9A0F</referredTableID>
+<keyObject>55C8FF09-7C06-43EB-24CF-3F186684468C</keyObject>
+<referredKeyID>55C8FF09-7C06-43EB-24CF-3F186684468C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04EA5E10-1F2D-E2C0-7C6B-2751F4CC4580" containerWithKeyObject="1DE49EFC-E0CA-AEEE-9FB5-25A2969D88E0" localFKIndex="C43133FE-7E32-0CD5-568C-CC6A1AC092E8" name="MOVIE_TITLE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>277F8640-76E5-0889-FC32-2096D68609A3</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>TITLE</referredTableLongName>
+<arc>27750781-5D23-1F24-A604-EAC875D143AB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77DA1CE7-C3BA-2661-477B-688FFB6E9A0F</referredTableID>
+<keyObject>55C8FF09-7C06-43EB-24CF-3F186684468C</keyObject>
+<referredKeyID>55C8FF09-7C06-43EB-24CF-3F186684468C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

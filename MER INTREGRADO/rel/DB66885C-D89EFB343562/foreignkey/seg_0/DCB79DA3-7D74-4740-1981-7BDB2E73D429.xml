@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCB79DA3-7D74-4740-1981-7BDB2E73D429" containerWithKeyObject="B24FA35B-A7C4-08DE-53F3-AF213C056680" localFKIndex="B98A5357-98B8-F1B8-2EFF-6CE79F7AA377" name="PAYMENT_METHOD_USER_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:55 UTC</createdTime>
+<generatorID>CAA68F33-B61D-7CD7-779E-9D0D4B7B09A9</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>619EA6FE-0D1F-1B5A-3A5F-906FEBB660CF</referredTableID>
+<keyObject>9357CF0E-DC20-C81F-F323-77A03158BA2E</keyObject>
+<referredKeyID>9357CF0E-DC20-C81F-F323-77A03158BA2E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_user</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

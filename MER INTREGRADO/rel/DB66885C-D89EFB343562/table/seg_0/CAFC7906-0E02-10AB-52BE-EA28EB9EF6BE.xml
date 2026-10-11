@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAFC7906-0E02-10AB-52BE-EA28EB9EF6BE" name="DOCUMENTARY">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>0D174A42-E699-5117-DCBF-DADF96F44312</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5A41CB2F-3669-09B8-D8F3-6496266B7AD0">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BE81537-00FF-C321-F87A-3708CC90CF5F" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFF136FC-AEA2-51F2-9027-C2A7EB6D36E1" name="DOCUMENTARY_PK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>2DDB1CD4-82A1-6BFF-BEDC-916740E3501C</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A41CB2F-3669-09B8-D8F3-6496266B7AD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BD65ADB-FFAA-186A-76AF-38BB957F227B" name="DOCUMENTARY_TITLE_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>84A9222A-2E53-AFD5-AD29-55BBA63727F2</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A41CB2F-3669-09B8-D8F3-6496266B7AD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

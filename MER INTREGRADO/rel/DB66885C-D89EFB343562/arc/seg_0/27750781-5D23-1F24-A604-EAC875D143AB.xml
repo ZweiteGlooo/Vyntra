@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="27750781-5D23-1F24-A604-EAC875D143AB" name="FKArc_1">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>77DA1CE7-C3BA-2661-477B-688FFB6E9A0F</table>
+<fkeys>
+<fkeyID>E7978169-C4F7-AFE8-1FC0-F3B66EF2328A</fkeyID>
+<fkeyID>04EA5E10-1F2D-E2C0-7C6B-2751F4CC4580</fkeyID>
+<fkeyID>8BE81537-00FF-C321-F87A-3708CC90CF5F</fkeyID>
+</fkeys>
+</FKArc>

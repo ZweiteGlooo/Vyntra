@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="92F5B6B3-BB1B-B8F3-C677-E3C60378B5E1" containerWithKeyObject="22790D6D-9176-4070-612C-585B49C18CCD" localFKIndex="ACC95D31-CE03-530B-6DBC-2CC260CB277E" name="PROFILE_SUBSCRIPTION_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:55 UTC</createdTime>
+<generatorID>4178FFA8-9D7D-A382-371A-6DF8A7EC1D68</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>SUBSCRIPTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1212255F-FCA8-19EA-E33B-D1EE17EFBCAF</referredTableID>
+<keyObject>10516737-0EB7-B529-0E95-56777DF41719</keyObject>
+<referredKeyID>10516737-0EB7-B529-0E95-56777DF41719</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_subscription</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
