@@ -13,8 +13,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="type" id="5949709F-F20B-5411-C617-3CBDF0B5116B">
@@ -22,8 +25,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>B7A96869-4ED6-531E-689B-737BC8C02ED2</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="release_year" id="406A9ACA-C076-5A94-8A3B-78EADA96A619">
@@ -31,8 +37,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>FCAEA754-EA4B-B5D4-5634-2FDB3BB715CE</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="synopsis" id="8A36B722-40F5-25A4-DC97-23507F44B610">
@@ -40,8 +49,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>E30DFAED-29D3-182F-26AA-D2AFC8AB478E</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="duration_minute" id="EEF0B993-79EA-2891-077F-FE500397C2DC">
@@ -49,8 +61,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>DF28EC7C-C21A-F3A1-1C8F-9A5A5E71D91A</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="age_rating" id="68F3E55D-4714-DB75-89BB-D171E7B9F9C4">
@@ -58,8 +73,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>89D8E233-5CB6-8FCF-E38A-41FDB0F4C1F8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="origin" id="75FDB4EC-65A5-0FF7-2B55-4A9F8E199C23">
@@ -67,8 +85,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>8EBC0357-A3BA-1DCB-3532-5FF5DB57F61D</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="id_subscription" id="9BB44866-A90F-EDAE-93B0-E2A63B0F9DA7">
@@ -79,15 +100,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id1" id="BB4E0536-8626-1A08-BE7B-67277B7CFA1A">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>0E9C585C-C6F5-2B77-EB03-E9D43AFAB5FA</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

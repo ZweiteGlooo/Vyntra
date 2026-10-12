@@ -13,8 +13,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>38E15DD2-0CF9-F44F-0495-CA30A2E21077</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="relevance_score" id="1C930CBC-C9E3-48AC-0E98-6E6B9B34E09D">
@@ -22,8 +25,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>FA58214A-D749-5504-D011-DB572538546B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="generated_date" id="FFCC7983-9087-F9AB-4C05-D4AE0B0AE4B4">
@@ -31,16 +37,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>386A7713-C03F-A8B4-B258-CE6AD1D80621</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_profile" id="AA70BDF3-B6B0-F0FA-5822-D6596D829E8F">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>CB64E005-1117-0A97-EDB9-C7C7FE48C4A9</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -49,19 +48,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>E0604F4F-2971-8BE8-FD10-4FA4C3C12C01</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_profile1" id="685C9898-29AE-54C9-FFAF-9B54DD14C73E">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>65779F0A-79E7-C1EE-805A-F66B677CA040</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PROFILE_id_profile" id="DAEE83AA-ABA7-ED4E-DB99-CA3E0018A9F2">
@@ -84,7 +75,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>BC2FEB06-3C28-A641-90CC-D05F52DD68D6</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

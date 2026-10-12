@@ -77,7 +77,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>3DD5EC0D-6C38-9544-BA65-9999FED7DAC7</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -86,8 +88,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>924631FA-5072-15DD-C25E-399A34A14379</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cancellation_date" id="94E52C86-8F59-F750-0274-25826753E50A">
@@ -95,7 +100,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>3D3C29F0-6A8A-4CF3-ED17-96CAA27F914D</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

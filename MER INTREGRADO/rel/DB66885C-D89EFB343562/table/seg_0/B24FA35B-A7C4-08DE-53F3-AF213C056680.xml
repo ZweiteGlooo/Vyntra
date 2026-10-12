@@ -13,8 +13,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>FEB55B1D-4127-B58B-BFA8-1E71C1291CA5</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="card_type" id="16682F7F-2616-7177-52A3-8A9A4FC2B017">
@@ -22,8 +25,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>5A334DD6-660D-6563-89CF-245FBD3E2BB8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="card_number_masked" id="8A6CEE23-6528-CEC3-BD88-03296C68B8FF">
@@ -31,8 +37,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>0229A20E-EEA8-3144-DB09-720F7EBE94AA</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cardholder_name" id="4388780F-D4DC-62F4-CDFA-FE21A0AF87B1">
@@ -40,8 +49,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>7EB32B86-2666-25A5-62AA-F23466A9122F</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="expiration_date" id="D7F7A0DA-C189-5F11-D3F0-173F0A1ADE41">
@@ -49,7 +61,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>BDFAB098-CB91-F7D5-CD9D-FBBE286ED883</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -58,8 +72,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>27DB2D64-1E68-72C2-CF03-F86DDD243464</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="state" id="FB99CA9F-BED0-136A-B334-17B4DC18081B">
@@ -67,8 +84,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>3D46FA9B-32E6-9455-3CB6-FC4F83443AE4</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="USER_id_user" id="B78E018A-A834-C3D0-C01E-87392ABB014F">

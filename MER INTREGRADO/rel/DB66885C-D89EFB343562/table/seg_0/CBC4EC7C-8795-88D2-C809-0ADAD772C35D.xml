@@ -13,8 +13,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>54A8D182-EEAE-D48E-3E34-9BF608B40F91</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="id_content" id="227CAC61-E8E6-8A10-45BA-A259FA9341CD">
@@ -22,8 +25,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>B8D67CAC-C6D6-1A3B-4A36-1DDE0D0460E3</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="date_added" id="3B25E922-FB11-9C9E-38D0-F111C708906C">
@@ -31,7 +37,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>5A6C2D83-388B-CB0E-99B8-9F229425D301</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -55,7 +63,9 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>933B908A-B471-DB80-3DE0-F522D276D8F1</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -75,7 +85,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CFF5ED46-8B3A-8F0A-E199-62CDAAD68577"/>
-<colUsage columnID="227CAC61-E8E6-8A10-45BA-A259FA9341CD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DC84A33C-7188-D6BE-EB95-3D39DC3A42E4" name="FAVORITE_PROFILE_FK">
