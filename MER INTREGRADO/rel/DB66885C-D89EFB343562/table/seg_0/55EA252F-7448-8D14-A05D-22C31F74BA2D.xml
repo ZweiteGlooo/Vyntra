@@ -13,17 +13,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>1B1FCB30-489D-23AF-4016-382144EACC18</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_actor" id="F01D640D-B75C-9917-7832-2956BE6AB560">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>14A24FC2-246B-24DA-5030-DFD68B58506D</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="character" id="6FC9A7C4-AF76-F424-5F8E-E83C41A5ABA5">
@@ -31,17 +25,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>7F77E685-1DAA-9157-3978-B66C1599609D</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_actor1" id="3822F864-8324-AD54-AA85-BB2AE7088F7E">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>0EBB83B8-A226-5B3A-7D31-002EF89F2D78</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TITLE_id" id="505B1EA2-4799-2492-D34E-EFA74594069F">
@@ -49,7 +37,10 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>DD5482E8-2FF1-F2E7-B70A-E37DBBDEEF75</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -62,7 +53,10 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>CAFCC26F-E95C-1BC3-45C2-C6D918B36223</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -93,7 +87,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B348B8DC-9CCF-2ACB-EEA1-490BDCF8D4AB"/>
-<colUsage columnID="F01D640D-B75C-9917-7832-2956BE6AB560"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="92BB3302-4761-C3BB-EC5A-AA4090D8DCA9" name="PARTICIPATION_TITLE_FK">

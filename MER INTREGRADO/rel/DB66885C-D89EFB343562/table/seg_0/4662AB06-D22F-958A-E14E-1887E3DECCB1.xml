@@ -13,17 +13,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>2EEC6A67-62BD-2C17-3CE3-F32985562D7F</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_plan" id="1D21A184-B671-95B9-C609-8FD4B74855B8">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>19E70150-E222-F46B-31B7-F44968946C42</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="revenue_amount" id="40C28F71-A377-1F23-F1E4-0C63AEF1A0A9">
@@ -31,17 +25,11 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>202CBE9B-F6BC-6225-B3C4-33003C823C4D</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_report1" id="FADF8D92-B24E-52AE-C928-122BF2166919">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>58046BB4-7308-8C17-1D28-98A51D571182</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="id_plan1" id="9116B55D-5371-C942-92A9-9BCFF6DCFE8E">
@@ -60,7 +48,10 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>7CD78B15-34D6-8DC1-7966-A2744FCDB1BD</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -95,8 +86,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B86924DD-4AFF-8738-F23F-CB27D23A3659"/>
-<colUsage columnID="1D21A184-B671-95B9-C609-8FD4B74855B8"/>
-<colUsage columnID="FADF8D92-B24E-52AE-C928-122BF2166919"/>
 <colUsage columnID="9116B55D-5371-C942-92A9-9BCFF6DCFE8E"/>
 <colUsage columnID="B072F3B4-F30D-9EB0-194E-9EA7A366C23F"/>
 <colUsage columnID="99DD7541-0758-D0D0-8737-EAFE72D178D5"/>
