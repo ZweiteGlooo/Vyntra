@@ -8,41 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_title" id="E4DF827B-CAF9-5ABA-5086-6312CA84ED00">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>BDDA777C-B5E1-A1BA-763F-CAE8B13B4A26</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_country" id="A57E8071-6894-17BA-9A80-191A344713CB">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>74E6E4F6-03F5-7F4D-0E84-CDD71349276C</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="available_date" id="48967896-520B-AC46-7F25-18F142BD74ED">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>7E78AAB0-5B9F-915E-E1AD-EACDD17921F7</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="TITLE_id" id="E49D2DB9-1D79-D317-7F8F-235EB35DFD56">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -59,7 +24,7 @@
 <colAssociation fkAssociation="B44AD87C-17EC-7CF3-2B75-CD56FF671B32" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
 </associations>
 </Column>
-<Column name="COUNTRY_id_country" id="ECE90C57-82A6-0F74-E0D1-0DFEFC03E976">
+<Column name="COUNTRY_id" id="ECE90C57-82A6-0F74-E0D1-0DFEFC03E976">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>0A5E1156-28D0-355F-F5AF-747CC10B089A</generatorID>
@@ -75,6 +40,17 @@
 <colAssociation fkAssociation="2C16A0BB-9179-13B8-56FC-14703A83BA94" referredColumn="444FF73A-8FCD-E4DE-C289-3B95E846E04B"/>
 </associations>
 </Column>
+<Column name="available_date" id="48967896-520B-AC46-7F25-18F142BD74ED">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>7E78AAB0-5B9F-915E-E1AD-EACDD17921F7</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="13707FE3-2F5A-2EF4-FA08-C88260D30859" name="AVAILABILITY_PK">
@@ -86,8 +62,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E4DF827B-CAF9-5ABA-5086-6312CA84ED00"/>
-<colUsage columnID="A57E8071-6894-17BA-9A80-191A344713CB"/>
+<colUsage columnID="E49D2DB9-1D79-D317-7F8F-235EB35DFD56"/>
+<colUsage columnID="ECE90C57-82A6-0F74-E0D1-0DFEFC03E976"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1C839B1F-6B4B-E58C-B04C-CAFCDFE2DB96" name="AVAILABILITY_TITLE_FK">

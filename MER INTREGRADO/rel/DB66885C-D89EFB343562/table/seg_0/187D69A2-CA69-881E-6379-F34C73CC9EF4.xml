@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="187D69A2-CA69-881E-6379-F34C73CC9EF4" name="PROMO_CODE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="187D69A2-CA69-881E-6379-F34C73CC9EF4" name="PROMO_CODES">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>669D8BBD-E237-2B48-1551-26BA4F4155A8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>promo_code</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_promo_code" id="5988AD21-0EBE-9CF7-3072-3B8141B988DB">
+<Column name="id" id="5988AD21-0EBE-9CF7-3072-3B8141B988DB">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>F4109777-E7BB-1F97-06B9-CB86436CD5B9</generatorID>
@@ -50,9 +51,10 @@
 <generatorID>988324D6-342C-0514-E1D5-C982D70EA385</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<domain>698C0C23-751D-825B-A4F6-2976848E77C9</domain>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -108,9 +110,10 @@
 <generatorID>81DD95D7-6AE1-7FFF-CCF2-FE4BEB3016BF</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>0DC930BB-8576-298E-D999-C9FE615935AA</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -126,6 +129,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5988AD21-0EBE-9CF7-3072-3B8141B988DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E2965B-6A27-4B5F-9559-D8F54E561EDA" name="PROMO_CODES__UN">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 21:27:02 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D16ED766-41A3-7EEC-E1FB-0C2A35F831B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

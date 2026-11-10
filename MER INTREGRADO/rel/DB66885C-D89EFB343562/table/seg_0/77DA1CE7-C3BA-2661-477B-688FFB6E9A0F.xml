@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77DA1CE7-C3BA-2661-477B-688FFB6E9A0F" name="TITLE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77DA1CE7-C3BA-2661-477B-688FFB6E9A0F" name="TITLES">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>CD8DD520-B450-1A6B-5CEC-49295849C9C2</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>title</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -26,9 +27,10 @@
 <generatorID>B7A96869-4ED6-531E-689B-737BC8C02ED2</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>2F884EC7-130C-3546-C35F-985789240EFA</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -38,9 +40,10 @@
 <generatorID>FCAEA754-EA4B-B5D4-5634-2FDB3BB715CE</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
+<domain>705D53A2-AE7B-BCE3-92AA-30C59D345CE9</domain>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -56,27 +59,16 @@
 <ownDataTypeParameters>10000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="duration_minute" id="EEF0B993-79EA-2891-077F-FE500397C2DC">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>DF28EC7C-C21A-F3A1-1C8F-9A5A5E71D91A</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="age_rating" id="68F3E55D-4714-DB75-89BB-D171E7B9F9C4">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>89D8E233-5CB6-8FCF-E38A-41FDB0F4C1F8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
+<domain>461BC37E-216B-A033-D7F8-D88E59D35C4C</domain>
 <ownDataTypeParameters>4,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -86,21 +78,11 @@
 <generatorID>8EBC0357-A3BA-1DCB-3532-5FF5DB57F61D</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>F7387A6C-0CA9-9E52-6D33-3CE83C4B958B</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_subscription" id="9BB44866-A90F-EDAE-93B0-E2A63B0F9DA7">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>45AFA473-4A2E-FDE1-85D7-5EFADAB3D915</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

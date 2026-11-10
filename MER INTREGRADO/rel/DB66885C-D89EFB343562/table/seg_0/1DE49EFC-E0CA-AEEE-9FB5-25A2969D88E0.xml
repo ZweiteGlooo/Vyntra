@@ -1,24 +1,40 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DE49EFC-E0CA-AEEE-9FB5-25A2969D88E0" name="MOVIE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DE49EFC-E0CA-AEEE-9FB5-25A2969D88E0" name="MOVIES">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>B9FB4CFB-BAD3-5B39-3F89-CA1D200BCEC0</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>movie</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="16B7D750-5043-C7FC-3AC0-CE48C0108F59">
+<Column name="TITLES_id" id="16B7D750-5043-C7FC-3AC0-CE48C0108F59">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="04EA5E10-1F2D-E2C0-7C6B-2751F4CC4580" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
 </associations>
+</Column>
+<Column name="duration_minute" id="FECC67FE-3E21-6804-FBA4-D1645093B30F">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 21:32:51 UTC</createdTime>
+<generatorID>DF28EC7C-C21A-F3A1-1C8F-9A5A5E71D91A</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

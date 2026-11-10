@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60B74950-079F-EA6C-F819-43D1F3B5071C" name="LANGUAGE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60B74950-079F-EA6C-F819-43D1F3B5071C" name="LANGUAGES">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>94D0D8CA-30F9-DE43-82F5-269C190E08B8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>language</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_language" id="4730FD31-C1DE-E01F-7552-2D443DE36DF0">
+<Column name="id" id="4730FD31-C1DE-E01F-7552-2D443DE36DF0">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>72E1F62B-79C1-01E8-424B-8314EDFDED19</generatorID>
@@ -56,6 +57,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4730FD31-C1DE-E01F-7552-2D443DE36DF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D0B2D7-FEF7-8AD4-B7EC-269C8D4CB463" name="LANGUAGES__UN">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 21:27:58 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F035D9C-8F6A-72F9-9C68-195959E159A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

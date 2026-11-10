@@ -8,34 +8,10 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_progress" id="4DF8278D-B4EF-7692-5997-440941C60D01">
+<Column name="id" id="4DF8278D-B4EF-7692-5997-440941C60D01">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>17ACA449-875D-7BC2-2E5A-11A7F918AFFF</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_profile" id="7D71D0F6-FEF3-0CFD-93A5-5AD83020F4F0">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>CC36BF20-8CD3-72B5-864C-4685718F047A</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_content" id="C0E098ED-BF70-8DFC-023A-CFCAE8199AD2">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>BD9BE8A0-681B-0BDA-9ACB-BFEDBD9F8465</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,9 +38,10 @@
 <generatorID>3AD7FBAE-6F13-804C-BC79-A6A18CC59ECA</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<domain>283780C9-B424-E0DD-CFD9-2ABEDD5708FE</domain>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -85,13 +62,14 @@
 <generatorID>F826E739-1D46-3684-B6CB-5A9AF1BF3B93</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>B2782AE4-592B-C390-80B8-16A61C346AF5</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROFILE_id_profile" id="63BBB200-1EF1-CFA8-B580-7DE46E755FB1">
+<Column name="PROFILE_id" id="63BBB200-1EF1-CFA8-B580-7DE46E755FB1">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>D3A1218C-2A1F-FC2C-981E-42865080B97B</generatorID>
@@ -134,6 +112,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4DF8278D-B4EF-7692-5997-440941C60D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6154BCDE-CBE7-161B-DE0F-64E751B1B9C9" name="REPRODUCTION_PROGRESS__UN">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 21:28:38 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63BBB200-1EF1-CFA8-B580-7DE46E755FB1"/>
+<colUsage columnID="960524F5-A6FB-40E8-530F-BD9689979289"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DCFBB92C-7286-D8FA-26AC-9307382386CD" name="REPRODUCTION_PROGRESS_PROFILE_FK">

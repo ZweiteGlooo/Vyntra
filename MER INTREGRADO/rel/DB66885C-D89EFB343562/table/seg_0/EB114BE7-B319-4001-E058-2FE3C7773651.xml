@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB114BE7-B319-4001-E058-2FE3C7773651" name="PAYMENT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB114BE7-B319-4001-E058-2FE3C7773651" name="PAYMENTS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>CC994664-9F78-65D7-6112-D2CE90FD66B6</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>payment</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_payment" id="C67A3153-84A8-6149-1DBB-A647BC21DD79">
+<Column name="id" id="C67A3153-84A8-6149-1DBB-A647BC21DD79">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>BA7025B3-E165-9E00-08E3-B257106AED78</generatorID>
@@ -20,64 +21,17 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SUBSCRIPTION_id_subscription" id="D149A1DC-35B7-5E23-9F4D-D0EACF1F38B1">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>263595A2-DED0-3711-5328-EB565F5B517F</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F59D8344-5FB5-134C-5090-9F8DFA5EC8EB" referredColumn="8DCE96DC-B6F4-9958-B6E1-310296D741EF"/>
-</associations>
-</Column>
-<Column name="PAYMENT_METHOD_id_payment_method" id="5C4FCC1E-403D-8AC1-3F28-B580F6F36BA0">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>2C5509C3-64B2-0BD7-F354-1F7368E5227E</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E24C8F4A-FB81-ECC1-003A-790D47E1BE9D" referredColumn="38C7DCA2-B61D-8825-D0BD-3BEA89579F08"/>
-</associations>
-</Column>
-<Column name="PROMO_CODE_id_promo_code" id="B5922B81-7A7E-E58E-737A-7D5C376A8DDB">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>551B4576-B10E-5A95-3559-E52F417DE434</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="18EB0B35-9BB4-091C-7B28-5C68379A1DB1" referredColumn="5988AD21-0EBE-9CF7-3072-3B8141B988DB"/>
-</associations>
-</Column>
 <Column name="amount" id="8EF48764-AE26-E076-FDF9-AA720EBD36D7">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>165CD86F-F6AA-C6A9-A74A-9CDB8F12E393</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<domain>698C0C23-751D-825B-A4F6-2976848E77C9</domain>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -122,8 +76,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="state" id="DDD41E7D-B94F-CF75-EAB3-89D1079B1D29">
@@ -132,11 +86,74 @@
 <generatorID>8A1C77FD-E972-32D9-88D8-66E5362C6F49</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>114E268E-154F-4FE8-DB2B-EC6F8B3C3DE8</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBSCRIPTION_id" id="D149A1DC-35B7-5E23-9F4D-D0EACF1F38B1">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>263595A2-DED0-3711-5328-EB565F5B517F</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F59D8344-5FB5-134C-5090-9F8DFA5EC8EB" referredColumn="8DCE96DC-B6F4-9958-B6E1-310296D741EF"/>
+</associations>
+</Column>
+<Column name="PAYMENT_METHODS_id" id="5C4FCC1E-403D-8AC1-3F28-B580F6F36BA0">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>2C5509C3-64B2-0BD7-F354-1F7368E5227E</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E24C8F4A-FB81-ECC1-003A-790D47E1BE9D" referredColumn="38C7DCA2-B61D-8825-D0BD-3BEA89579F08"/>
+</associations>
+</Column>
+<Column name="PROMO_CODE_id" id="B5922B81-7A7E-E58E-737A-7D5C376A8DDB">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>551B4576-B10E-5A95-3559-E52F417DE434</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18EB0B35-9BB4-091C-7B28-5C68379A1DB1" referredColumn="5988AD21-0EBE-9CF7-3072-3B8141B988DB"/>
+</associations>
+</Column>
+<Column name="PLANS_id" id="53086ED3-1AD2-6D3D-AB20-1C014F62CF10">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 20:00:24 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CAE294B-66CD-72BC-CF80-F9354B53A539" referredColumn="969E488D-4B5C-58C7-A9EE-AD52BCDA77B4"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -150,6 +167,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C67A3153-84A8-6149-1DBB-A647BC21DD79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06E38218-34D0-E917-39E2-3878FA36ABCC" name="PAYMENTS__UN">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 21:27:25 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="522C508E-012F-10A5-932A-71BD87E40EEC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C19435BD-2819-BD96-B864-10A4E0945B32" name="PAYMENT_PAYMENT_METHOD_FK">
@@ -183,6 +210,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D149A1DC-35B7-5E23-9F4D-D0EACF1F38B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFB14B17-EA19-9098-DB48-D8A71D1A8603" name="PAYMENTS_PLANS_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-10 20:00:24 UTC</createdTime>
+<generatorID>77762CE9-6712-50CC-DB5E-15085505E655</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53086ED3-1AD2-6D3D-AB20-1C014F62CF10"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

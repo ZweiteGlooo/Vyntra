@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49885658-2757-E3D2-EF84-C65C93DEBBE8" name="PLAN">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49885658-2757-E3D2-EF84-C65C93DEBBE8" name="PLANS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>10ADC5B2-DAD1-04CA-180E-8766F126A205</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>plan</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_plan" id="969E488D-4B5C-58C7-A9EE-AD52BCDA77B4">
+<Column name="id" id="969E488D-4B5C-58C7-A9EE-AD52BCDA77B4">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>98E7D99D-A90A-F3D9-9720-93A261EA10C5</generatorID>
@@ -37,8 +38,9 @@
 <generatorID>693A51E9-AF7A-2C6B-3850-C30327AB341F</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E3A83CC9-E804-FBDE-CBC5-9EA1568FA9CC</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -48,8 +50,9 @@
 <generatorID>795D95E6-9804-C972-A866-81E9F7EE3B2C</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>64E6ADC3-10E2-47A1-AB16-541F7F712F40</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -59,9 +62,10 @@
 <generatorID>283BDBE9-3A0E-93A2-E388-9BB00ECDBA16</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>B2782AE4-592B-C390-80B8-16A61C346AF5</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

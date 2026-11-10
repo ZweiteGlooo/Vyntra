@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B24FA35B-A7C4-08DE-53F3-AF213C056680" name="PAYMENT_METHOD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B24FA35B-A7C4-08DE-53F3-AF213C056680" name="PAYMENT_METHODS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>CEAEA933-C8F2-C3E2-FE0C-B3CD01C25FB8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>payment_method</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_payment_method" id="38C7DCA2-B61D-8825-D0BD-3BEA89579F08">
+<Column name="id" id="38C7DCA2-B61D-8825-D0BD-3BEA89579F08">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>FEB55B1D-4127-B58B-BFA8-1E71C1291CA5</generatorID>
@@ -26,9 +27,10 @@
 <generatorID>5A334DD6-660D-6563-89CF-245FBD3E2BB8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
+<domain>CB85358A-541E-C84B-D575-DCF942B37F21</domain>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -73,9 +75,10 @@
 <generatorID>27DB2D64-1E68-72C2-CF03-F86DDD243464</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<domain>B2782AE4-592B-C390-80B8-16A61C346AF5</domain>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -85,13 +88,14 @@
 <generatorID>3D46FA9B-32E6-9455-3CB6-FC4F83443AE4</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
+<domain>C4CD7A64-3EB7-680D-16B8-A09D0B6D23A2</domain>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_id_user" id="B78E018A-A834-C3D0-C01E-87392ABB014F">
+<Column name="USER_id" id="B78E018A-A834-C3D0-C01E-87392ABB014F">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>96EC7C26-4CC9-D109-5A81-D45C11D9C799</generatorID>

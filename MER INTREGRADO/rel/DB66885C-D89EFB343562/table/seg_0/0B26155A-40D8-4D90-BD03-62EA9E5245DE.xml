@@ -1,42 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B26155A-40D8-4D90-BD03-62EA9E5245DE" name="CLASSIFICATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B26155A-40D8-4D90-BD03-62EA9E5245DE" name="CLASSIFICATIONS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>9E2F9345-6E1E-9BD8-F5EA-A7021D3D1B22</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>classification</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_title" id="8B746226-7BE2-FC6F-673C-65FC1179569D">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>CF2EE179-BB83-30C3-B575-81DF665B095A</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_genre" id="927074A7-4802-ED90-9D9F-BE15A0BEC410">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>214BC6A2-8517-1452-411D-F83ED167AE8D</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="GENRE_id_genre" id="98F39A2A-1E12-8FD7-9F46-654152F4C749">
+<Column name="GENRE_id" id="98F39A2A-1E12-8FD7-9F46-654152F4C749">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>85983CC2-43D7-7B82-DEF7-F864EF34F101</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
@@ -74,7 +52,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8B746226-7BE2-FC6F-673C-65FC1179569D"/>
+<colUsage columnID="98F39A2A-1E12-8FD7-9F46-654152F4C749"/>
+<colUsage columnID="E923F154-DF9A-7564-77DA-A3E96BB905E1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="75C68949-7586-8F8A-3D19-9DC0128F1934" name="CLASSIFICATION_GENRE_FK">

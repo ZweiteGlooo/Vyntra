@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0D79A5D-3560-369A-83CE-BBE2867C7090" name="RECOMMENDATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0D79A5D-3560-369A-83CE-BBE2867C7090" name="RECOMMENDATIONS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>8C68E03B-B2BB-277D-B051-F5D44D68E30D</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>recommendation</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_recommendation" id="59551494-221B-B2EC-2F89-687E828529F6">
+<Column name="id" id="59551494-221B-B2EC-2F89-687E828529F6">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>38E15DD2-0CF9-F44F-0495-CA30A2E21077</generatorID>
@@ -26,9 +27,10 @@
 <generatorID>FA58214A-D749-5504-D011-DB572538546B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<domain>283780C9-B424-E0DD-CFD9-2ABEDD5708FE</domain>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -43,19 +45,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_title" id="C7EBE3E1-2492-CF07-FC9B-B2169E69B8E8">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>E0604F4F-2971-8BE8-FD10-4FA4C3C12C01</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PROFILE_id_profile" id="DAEE83AA-ABA7-ED4E-DB99-CA3E0018A9F2">
+<Column name="PROFILE_id" id="DAEE83AA-ABA7-ED4E-DB99-CA3E0018A9F2">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>406D1D92-35AC-6D54-AED5-11ABEB0A64B9</generatorID>
@@ -75,6 +65,7 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>BC2FEB06-3C28-A641-90CC-D05F52DD68D6</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>

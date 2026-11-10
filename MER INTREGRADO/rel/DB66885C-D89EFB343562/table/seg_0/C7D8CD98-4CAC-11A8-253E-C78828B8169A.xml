@@ -1,35 +1,24 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7D8CD98-4CAC-11A8-253E-C78828B8169A" name="EPISODE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7D8CD98-4CAC-11A8-253E-C78828B8169A" name="EPISODES">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>7DA3E5C1-082F-805B-A35C-C9703E69DA49</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>episode</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_episode" id="053397A8-7370-4193-8A14-D492D098E490">
+<Column name="name_episode" id="E95AA6DE-518C-C708-1100-6C3CA9B5999D">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>D1BA0539-B088-0378-3256-C343638FDE2B</generatorID>
+<generatorID>8A84DCB0-DF54-18CA-1270-5C8AAF577D72</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_title" id="956693DD-E0FA-3DFC-FEC6-C202F8B2668C">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>384D426D-C558-91FC-023A-3BD3A6EEFBC5</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="season_number" id="9C0A0CFE-F8AB-CBFE-8878-98A1601A8CA0">
@@ -44,6 +33,21 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TITLE_id" id="053397A8-7370-4193-8A14-D492D098E490">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>D1BA0539-B088-0378-3256-C343638FDE2B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52A1460F-A453-492D-D7E4-A32AF3AC445D" referredColumn="D6E73021-A24C-1E2D-FF9D-E7CA6BA360F3"/>
+</associations>
+</Column>
 <Column name="season_episode" id="905AB2EB-1E19-AA88-B320-F6C5C460A7F3">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -54,18 +58,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="name_episode" id="E95AA6DE-518C-C708-1100-6C3CA9B5999D">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>8A84DCB0-DF54-18CA-1270-5C8AAF577D72</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="duration_minute" id="2435902A-D840-342F-8F2A-C3B700FD5602">
@@ -92,16 +84,20 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="053397A8-7370-4193-8A14-D492D098E490"/>
-<colUsage columnID="956693DD-E0FA-3DFC-FEC6-C202F8B2668C"/>
+<colUsage columnID="9C0A0CFE-F8AB-CBFE-8878-98A1601A8CA0"/>
+<colUsage columnID="905AB2EB-1E19-AA88-B320-F6C5C460A7F3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44EFDFDD-F83F-0431-2B77-F01F42D14D0A" name="EPISODE_TV_SHOW_FK">
+<ind_PK_UK id="44EFDFDD-F83F-0431-2B77-F01F42D14D0A" name="EPISODES_TV_SHOWS_FK">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="053397A8-7370-4193-8A14-D492D098E490"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

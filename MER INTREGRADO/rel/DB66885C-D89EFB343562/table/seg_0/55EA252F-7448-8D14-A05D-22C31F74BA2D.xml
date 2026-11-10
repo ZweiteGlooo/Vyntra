@@ -1,25 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55EA252F-7448-8D14-A05D-22C31F74BA2D" name="PARTICIPATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55EA252F-7448-8D14-A05D-22C31F74BA2D" name="PARTICIPATIONS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>EE08AF0F-FDDE-F4B0-0CFF-F6D68150CE05</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>participation</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_title" id="B348B8DC-9CCF-2ACB-EEA1-490BDCF8D4AB">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>1B1FCB30-489D-23AF-4016-382144EACC18</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="character" id="6FC9A7C4-AF76-F424-5F8E-E83C41A5ABA5">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -48,7 +37,7 @@
 <colAssociation fkAssociation="F0E57911-88B4-9A0E-E379-571C270103F4" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
 </associations>
 </Column>
-<Column name="ACTOR_id_actor" id="E3FEED2C-1A8A-9DDB-3F3D-0FE1915952E2">
+<Column name="ACTOR_id" id="E3FEED2C-1A8A-9DDB-3F3D-0FE1915952E2">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>CAFCC26F-E95C-1BC3-45C2-C6D918B36223</generatorID>
@@ -64,17 +53,6 @@
 <colAssociation fkAssociation="B89826AC-D6C2-6F6A-1A51-FB5263A94603" referredColumn="AED6EA69-E434-0458-F638-4A00C1DA08E9"/>
 </associations>
 </Column>
-<Column name="id_plan" id="EDD38589-FE76-E286-0638-AE2556E796A8">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>CF7E4106-ED90-FEA8-3015-0CE602AADF67</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AD196615-FDCB-52E8-CD85-EB804812FCA3" name="PARTICIPATION_PK">
@@ -86,7 +64,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B348B8DC-9CCF-2ACB-EEA1-490BDCF8D4AB"/>
+<colUsage columnID="505B1EA2-4799-2492-D34E-EFA74594069F"/>
+<colUsage columnID="E3FEED2C-1A8A-9DDB-3F3D-0FE1915952E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="92BB3302-4761-C3BB-EC5A-AA4090D8DCA9" name="PARTICIPATION_TITLE_FK">

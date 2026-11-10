@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F07974-C501-78A9-521A-EC1B4F84E618" name="ACTOR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F07974-C501-78A9-521A-EC1B4F84E618" name="ACTORS">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>43ED2A01-697D-4DD5-B53F-3FD41896FB7B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<ordsAlias>actor</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_actor" id="AED6EA69-E434-0458-F638-4A00C1DA08E9">
+<Column name="id" id="AED6EA69-E434-0458-F638-4A00C1DA08E9">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>606F4DAF-1FC0-231F-CBEB-A8E6A1554A0A</generatorID>
@@ -32,7 +33,7 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nacionality" id="84FABA88-20FA-9043-1714-26246A4FDFD9">
+<Column name="nationality" id="84FABA88-20FA-9043-1714-26246A4FDFD9">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>55A2896D-9735-742A-69A9-D01ABC58AB99</generatorID>
