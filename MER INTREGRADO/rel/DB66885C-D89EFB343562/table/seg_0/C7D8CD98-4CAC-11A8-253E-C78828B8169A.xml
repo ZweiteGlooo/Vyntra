@@ -30,7 +30,25 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="SEASON_NUMBER &gt;= 1"/>
+</checkConstraint>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season_episode" id="905AB2EB-1E19-AA88-B320-F6C5C460A7F3">
+<createdBy>glori</createdBy>
+<createdTime>2026-10-05 15:09:54 UTC</createdTime>
+<generatorID>FB695A29-DAC1-DA06-7488-869232B83941</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="SEASON_EPISODE &gt;= 1"/>
+</checkConstraint>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TITLE_id" id="053397A8-7370-4193-8A14-D492D098E490">
@@ -48,18 +66,6 @@
 <colAssociation fkAssociation="52A1460F-A453-492D-D7E4-A32AF3AC445D" referredColumn="D6E73021-A24C-1E2D-FF9D-E7CA6BA360F3"/>
 </associations>
 </Column>
-<Column name="season_episode" id="905AB2EB-1E19-AA88-B320-F6C5C460A7F3">
-<createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:54 UTC</createdTime>
-<generatorID>FB695A29-DAC1-DA06-7488-869232B83941</generatorID>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="duration_minute" id="2435902A-D840-342F-8F2A-C3B700FD5602">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -69,6 +75,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="DURATION_MINUTE &gt; 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

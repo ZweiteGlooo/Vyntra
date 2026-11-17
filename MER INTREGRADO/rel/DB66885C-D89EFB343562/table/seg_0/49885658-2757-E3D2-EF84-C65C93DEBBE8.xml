@@ -20,6 +20,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="price" id="137137F6-65CF-DC00-C37A-91B11F8559E5">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-13 02:10:55 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>698C0C23-751D-825B-A4F6-2976848E77C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="name" id="1912E28F-A83C-B73F-FB7C-AE6DF44A4229">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>

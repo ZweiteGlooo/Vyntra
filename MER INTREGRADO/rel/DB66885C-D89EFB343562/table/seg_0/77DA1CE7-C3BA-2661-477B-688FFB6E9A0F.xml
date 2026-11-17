@@ -21,6 +21,17 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="title_name" id="64FDB544-9580-B223-1EBD-3CB6C079EED7">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-13 02:10:13 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="type" id="5949709F-F20B-5411-C617-3CBDF0B5116B">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -44,6 +55,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <domain>705D53A2-AE7B-BCE3-92AA-30C59D345CE9</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="release_year &gt;= 1900"/>
+</checkConstraint>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -55,8 +69,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10000</dataTypeSize>
-<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="age_rating" id="68F3E55D-4714-DB75-89BB-D171E7B9F9C4">

@@ -32,6 +32,9 @@
 <dataTypePrecision>8</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <domain>698C0C23-751D-825B-A4F6-2976848E77C9</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="AMOUNT &gt;= 1"/>
+</checkConstraint>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

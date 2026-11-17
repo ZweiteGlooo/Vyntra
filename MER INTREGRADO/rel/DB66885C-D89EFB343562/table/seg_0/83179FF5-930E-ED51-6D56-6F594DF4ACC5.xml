@@ -29,6 +29,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="position_seconds &gt;= 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -42,6 +45,36 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <domain>283780C9-B424-E0DD-CFD9-2ABEDD5708FE</domain>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season_number" id="65A4E990-8F25-7808-9FFB-7A650ABB0A22">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-13 02:46:31 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="SEASON_NUMBER &gt;= 1"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season_episode" id="0C490AF6-D09F-0F00-511C-332EF1D1454E">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-13 02:47:05 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="SEASON_EPISODE &gt;= 1"/>
+</checkConstraint>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -125,7 +158,7 @@
 <colUsage columnID="960524F5-A6FB-40E8-530F-BD9689979289"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DCFBB92C-7286-D8FA-26AC-9307382386CD" name="REPRODUCTION_PROGRESS_PROFILE_FK">
+<ind_PK_UK id="DCFBB92C-7286-D8FA-26AC-9307382386CD" name="REPR_PROGRESS_PROFILE_FK">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:55 UTC</createdTime>
 <generatorID>C2F3F95E-72A0-F9E3-67FE-DEDB91E18AF4</generatorID>
