@@ -57,30 +57,6 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="season_number" id="D8385FC9-CCD1-1A14-8721-D7DFCB963DBA">
-<createdBy>glori</createdBy>
-<createdTime>2026-11-13 02:47:44 UTC</createdTime>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="season_episode" id="7B3B8114-A576-AAFB-47FC-B3805DC97B86">
-<createdBy>glori</createdBy>
-<createdTime>2026-11-13 02:48:07 UTC</createdTime>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="PROFILE_id" id="04573DDC-A5C2-FCFA-168E-96434756CB6A">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -110,6 +86,51 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="81102804-464D-1611-6DBD-8F1807FE5CFE" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
+</associations>
+</Column>
+<Column name="EPISODES_TITLE_id" id="3C7C4F28-367E-DC70-403B-7590F0A3A127">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:04:12 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C6F9E7-61D7-3590-FE5F-BCFE811964E0" referredColumn="053397A8-7370-4193-8A14-D492D098E490"/>
+</associations>
+</Column>
+<Column name="EPISODES_season_number" id="B34A6BED-DBE4-5594-3BED-894FA1E1A378">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:04:12 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C6F9E7-61D7-3590-FE5F-BCFE811964E0" referredColumn="9C0A0CFE-F8AB-CBFE-8878-98A1601A8CA0"/>
+</associations>
+</Column>
+<Column name="EPISODES_season_episode" id="53D0142D-7032-9D09-FD58-BE7AF6A85B59">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:04:12 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C6F9E7-61D7-3590-FE5F-BCFE811964E0" referredColumn="905AB2EB-1E19-AA88-B320-F6C5C460A7F3"/>
 </associations>
 </Column>
 </columns>
@@ -146,6 +167,19 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5C1A5639-2996-4F03-3980-28553F06E3AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C2D1E30-E3D7-88D3-12E0-2B5E87CAE2ED" name="REPRODUCTIONS_EPISODES_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:04:12 UTC</createdTime>
+<generatorID>97EC10E0-5E26-9832-3A47-545C2648F438</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C7C4F28-367E-DC70-403B-7590F0A3A127"/>
+<colUsage columnID="B34A6BED-DBE4-5594-3BED-894FA1E1A378"/>
+<colUsage columnID="53D0142D-7032-9D09-FD58-BE7AF6A85B59"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

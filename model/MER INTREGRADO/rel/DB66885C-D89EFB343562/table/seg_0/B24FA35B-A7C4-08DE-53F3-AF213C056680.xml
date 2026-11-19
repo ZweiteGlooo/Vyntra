@@ -17,8 +17,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16</dataTypeSize>
-<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="card_type" id="16682F7F-2616-7177-52A3-8A9A4FC2B017">

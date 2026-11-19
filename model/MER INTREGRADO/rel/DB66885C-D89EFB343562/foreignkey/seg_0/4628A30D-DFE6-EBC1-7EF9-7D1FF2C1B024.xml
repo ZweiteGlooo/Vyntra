@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4628A30D-DFE6-EBC1-7EF9-7D1FF2C1B024" containerWithKeyObject="83179FF5-930E-ED51-6D56-6F594DF4ACC5" localFKIndex="2DF6B0A9-A7FE-F3E0-9714-82133DFD36F6" name="PROGRESS_TV_SHOWS_FK">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:03:19 UTC</createdTime>
+<generatorID>97EC10E0-5E26-9832-3A47-545C2648F438</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<referredTableLongName>EPISODES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7D8CD98-4CAC-11A8-253E-C78828B8169A</referredTableID>
+<keyObject>B7ED66D2-E012-3D8E-4A6D-542E9C3BAB0F</keyObject>
+<referredKeyID>B7ED66D2-E012-3D8E-4A6D-542E9C3BAB0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TITLE_id,season_number,season_episode</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

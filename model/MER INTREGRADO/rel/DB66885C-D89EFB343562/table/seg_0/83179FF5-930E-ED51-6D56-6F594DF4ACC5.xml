@@ -48,36 +48,6 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="season_number" id="65A4E990-8F25-7808-9FFB-7A650ABB0A22">
-<createdBy>glori</createdBy>
-<createdTime>2026-11-13 02:46:31 UTC</createdTime>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<checkConstraint>
-<implementationDef dbType="Oracle Database 21c" definition="SEASON_NUMBER &gt;= 1"/>
-</checkConstraint>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="season_episode" id="0C490AF6-D09F-0F00-511C-332EF1D1454E">
-<createdBy>glori</createdBy>
-<createdTime>2026-11-13 02:47:05 UTC</createdTime>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<checkConstraint>
-<implementationDef dbType="Oracle Database 21c" definition="SEASON_EPISODE &gt;= 1"/>
-</checkConstraint>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="update_date" id="6F7B84E0-EF57-5DED-A13F-DF020ADC85D7">
 <createdBy>glori</createdBy>
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
@@ -126,11 +96,53 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPISODES_TITLE_id" id="CD998198-41E3-3F7F-D62B-D0AF0BBEC615">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:03:19 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="227D6BB9-B06C-B415-59B3-0E75E8B14B95" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
+<colAssociation fkAssociation="4628A30D-DFE6-EBC1-7EF9-7D1FF2C1B024" referredColumn="053397A8-7370-4193-8A14-D492D098E490"/>
+</associations>
+</Column>
+<Column name="EPISODES_season_number" id="E6277F42-6909-8A74-BA74-B2C1A6B79F87">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:03:19 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4628A30D-DFE6-EBC1-7EF9-7D1FF2C1B024" referredColumn="9C0A0CFE-F8AB-CBFE-8878-98A1601A8CA0"/>
+</associations>
+</Column>
+<Column name="EPISODES_season_episode" id="707AAB88-EADB-E8B2-B15A-9D7B36E45791">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-18 19:03:19 UTC</createdTime>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4628A30D-DFE6-EBC1-7EF9-7D1FF2C1B024" referredColumn="905AB2EB-1E19-AA88-B320-F6C5C460A7F3"/>
 </associations>
 </Column>
 </columns>
@@ -169,15 +181,17 @@
 <colUsage columnID="63BBB200-1EF1-CFA8-B580-7DE46E755FB1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="32A74EDF-6F72-D873-8834-055302910AC8" name="REPRODUCTION_PROGRESS_TITLE_FK">
+<ind_PK_UK id="2DF6B0A9-A7FE-F3E0-9714-82133DFD36F6" name="PROGRESS_TV_SHOWS_FK">
 <createdBy>glori</createdBy>
-<createdTime>2026-10-05 15:09:55 UTC</createdTime>
-<generatorID>468FE2AA-43BF-A4F8-36F5-F09B7775335E</generatorID>
+<createdTime>2026-11-18 19:03:19 UTC</createdTime>
+<generatorID>97EC10E0-5E26-9832-3A47-545C2648F438</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="960524F5-A6FB-40E8-530F-BD9689979289"/>
+<colUsage columnID="CD998198-41E3-3F7F-D62B-D0AF0BBEC615"/>
+<colUsage columnID="E6277F42-6909-8A74-BA74-B2C1A6B79F87"/>
+<colUsage columnID="707AAB88-EADB-E8B2-B15A-9D7B36E45791"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
