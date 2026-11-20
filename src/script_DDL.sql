@@ -1,16 +1,3 @@
--- =====================================================================
--- PROYECTO : Vyntra - Plataforma de streaming
--- CURSO    : Sistemas Intensivos en Datos (2026-2)
--- ENTREGA  : Final - Script DDL
--- MOTOR    : Oracle Database 21c
--- DESCRIPCION: Crea las 25 tablas de Vyntra: catalogo de contenido,
---   cuentas y perfiles, suscripciones y pagos, y actividad de los perfiles
---   (reproducciones, progreso, descargas, favoritos, recomendaciones).
---   Modelo generado con Oracle SQL Developer Data Modeler y ajustado a mano
---   (ver seccion "AJUSTES MANUALES" al final del script).
--- CONVENCION: campos CHAR(1) booleanos usan 'S' (si) / 'N' (no).
--- =====================================================================
-
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
 --   en:        2026-11-18 14:57:56 COT
 --   sitio:      Oracle Database 21c
@@ -855,16 +842,13 @@ ALTER TABLE USERS
     ) 
 ;
 
+-- AJUSTES 
 
--- =====================================================================
--- AJUSTES MANUALES (agregados despues de generar el modelo)
--- =====================================================================
-
--- FK faltante: el progreso debe apuntar a un titulo existente.
+-- FK de progreso de reproduccion a un titulo existente.
 ALTER TABLE REPRODUCTION_PROGRESS 
     ADD CONSTRAINT REPR_PROGRESS_TITLE_FK FOREIGN KEY ( TITLE_id ) REFERENCES TITLES ( id ) ;
 
--- Si es serie, las 3 columnas de episodio van llenas y el episodio es de la
+-- Si es un tv show, las 3 columnas de episodio van llenas y el episodio es de la
 -- misma serie (EPISODES_TITLE_id = TITLE_id). Si es pelicula o documental,
 -- las 3 van en NULL.
 ALTER TABLE REPRODUCTIONS 
@@ -879,7 +863,7 @@ ALTER TABLE REPRODUCTION_PROGRESS
         OR (EPISODES_TITLE_id IS NOT NULL AND EPISODES_TITLE_id = TITLE_id
             AND EPISODES_season_number IS NOT NULL AND EPISODES_season_episode IS NOT NULL) ) ;
 
--- Dominios de los campos codificados (valores documentados en cada tabla).
+-- Dominios de los campos.
 ALTER TABLE TITLES          ADD CONSTRAINT TITLE_TYPE_CK           CHECK (type IN ('M','D','S')) ;
 ALTER TABLE TITLES          ADD CONSTRAINT TITLE_ORIGIN_CK         CHECK (origin IN ('O','L')) ;
 ALTER TABLE CAPTIONS        ADD CONSTRAINT CAPTION_AVAILABLE_CK    CHECK (available IN ('S','N')) ;
