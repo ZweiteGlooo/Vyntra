@@ -125,7 +125,7 @@ Vyntra opera en Colombia, México, Ecuador y Perú, cada uno con su propia ley d
 | DDL | Oracle SQL Developer Data Modeler (generación a partir del modelo) y Claude (modificaciones posteriores) | El script base se generó desde el modelo; luego se ajustó con Claude (correcciones, restricciones, comentarios). | _[por completar]_ |
 | DML (inserts) | Claude | Generación de todas las tuplas de datos de prueba (`Vyntra_Datos_de_Prueba.sql`). | _[por completar]_ |
 | DQL (consultas) | _[por completar]_ | _[por completar]_ | _[por completar]_ |
-| PL/SQL | _[por completar]_ | _[por completar]_ | _[por completar]_ |
+| PL/SQL | Claude | Generación del borrador de `script_PLSQL.sql` (función, procedimiento y trigger) a partir del DDL, los datos de prueba y las HU; las reglas del trigger se contrastaron contra las 876 reproducciones de los datos de prueba. | Se ejecutó en Oracle 21c después del DDL y los datos de prueba: los tres objetos compilaron sin errores y las pruebas del script (casos válidos y de error) dieron el resultado esperado. Se verificó que el `ROLLBACK` final deja los datos intactos y que los datos de prueba se cargan sin errores con el trigger activo. |
 | Documentación | Claude | Redacción del borrador a partir del caso de estudio y del repositorio. | _[por completar]_ |
 
 ## 8. Conclusión
