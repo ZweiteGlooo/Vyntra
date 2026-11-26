@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80703D27-06FE-72B6-43BD-335F68E602B7" name="REPRODUCTION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80703D27-06FE-72B6-43BD-335F68E602B7" name="REPRODUCTIONS">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:02:46 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,17 +16,28 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_reproduction" id="AE17B782-2A2D-22DB-C32C-3794933C57EB">
+<Attribute name="id" id="AE17B782-2A2D-22DB-C32C-3794933C57EB">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:03:35 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_profile" id="9D4C7454-3F7C-25D0-95AD-4BC154C1F7CD">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:03:43 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -30,35 +45,64 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:03:56 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="start_date" id="E864180C-088D-DD7A-C804-EFB864BEEF0B">
+<Attribute name="start date" id="E864180C-088D-DD7A-C804-EFB864BEEF0B">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:04:27 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="end_date" id="B938AB45-C57B-2A15-8414-33F66CD48ABF">
+<Attribute name="end date" id="B938AB45-C57B-2A15-8414-33F66CD48ABF">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:04:46 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="quality_reproduction" id="33C7AEA5-62E9-5351-C517-67EFC647E164">
+<Attribute name="quality reproduction" id="33C7AEA5-62E9-5351-C517-67EFC647E164">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:04:54 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<domain>64E6ADC3-10E2-47A1-AB16-541F7F712F40</domain>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_profile1" id="28D0FCD1-3493-242A-2941-D4A41BE3BD03">
+<Attribute name="PROFILE id" id="28D0FCD1-3493-242A-2941-D4A41BE3BD03">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:14:03 UTC</createdTime>
 <generatorID>F2A36A39-8207-8A67-ABC7-499A948B1A78</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>1C1A678B-7422-795E-EF08-5F4D469310F8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,8 +114,239 @@
 <createdTime>2026-09-07 01:15:37 UTC</createdTime>
 <generatorID>362E413A-5F81-F3BD-3352-0DA49B0D8A37</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EPISODES season number" id="899661B5-78DE-BF22-8F2D-BC43262849E8">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>1D81DB26-E076-FE56-1175-2198B230CA09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EPISODES season episode" id="BD3AAA00-28EA-BE5B-B9A4-A951BCE70F8D">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FB695A29-DAC1-DA06-7488-869232B83941</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number1" id="099D91A6-BE3E-13C8-AA3A-73CC37FF2D7F">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FC48F2E8-8EBF-0717-DE8F-FBCFBB420622</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode1" id="AF79C96B-C6C5-1087-2C83-270842514B83">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>EC0D76E0-DCE4-3327-CE3F-B74A88F248AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number2" id="CD6FAD2C-93D4-CEBC-835D-B81240BAFA90">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>F043A60D-FF7D-4D22-B946-15AB6ADB8B03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode2" id="511E1930-0B4D-46B0-5243-061DA5E00035">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number11" id="0C742261-0E71-1C6E-6BE5-2EDB106BE560">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FC48F2E8-8EBF-0717-DE8F-FBCFBB420622</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode11" id="10E4006D-4577-B14F-B06B-ADAE5B8CEB1A">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>EC0D76E0-DCE4-3327-CE3F-B74A88F248AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number21" id="0A06791B-928E-AD98-05A2-355DAAB12E7C">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>F043A60D-FF7D-4D22-B946-15AB6ADB8B03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode21" id="849BD199-56DF-C36B-BF9F-F1D7DE2EEA05">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number12" id="7635CF94-3BF8-8910-4631-D9CB8E2D7F11">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FC48F2E8-8EBF-0717-DE8F-FBCFBB420622</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode12" id="091D300F-034B-A6AA-247B-2185830ABA8C">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>EC0D76E0-DCE4-3327-CE3F-B74A88F248AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number22" id="E8CDD639-DC8C-78CC-ED74-8179F197CE1B">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>F043A60D-FF7D-4D22-B946-15AB6ADB8B03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode22" id="0CE7B81D-90EC-C912-4E65-9844EE195BDA">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>78BB0AB0-AD16-5466-8EA1-3D45730D885D</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -80,6 +355,10 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:03:42 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>AE17B782-2A2D-22DB-C32C-3794933C57EB</attributeRef>

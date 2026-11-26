@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="31DBFF1B-3CF9-7CFA-9217-88A9CFE8002C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVAILABILITY TITLE FK" directorySegmentName="seg_0" id="31DBFF1B-3CF9-7CFA-9217-88A9CFE8002C">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:52:35 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
 </engineerTo>
 <sourcePk>2DDB1CD4-82A1-6BFF-BEDC-916740E3501C</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>is available</nameOnSource>
 <nameOnTarget>belongs to</nameOnTarget>
 <optionalSource>false</optionalSource>

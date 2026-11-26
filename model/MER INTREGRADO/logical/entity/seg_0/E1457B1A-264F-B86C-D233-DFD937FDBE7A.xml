@@ -1,9 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1457B1A-264F-B86C-D233-DFD937FDBE7A" name="COUNTRY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1457B1A-264F-B86C-D233-DFD937FDBE7A" name="COUNTRIES">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>8E40E484-857E-37EF-C76E-225D7388A1F4</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -13,26 +17,47 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_country" id="CCD297C3-AF70-32F5-A620-EE243D70B589">
+<Attribute name="id" id="CCD297C3-AF70-32F5-A620-EE243D70B589">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:46:09 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name_country" id="0F4E61CB-C150-A560-AC00-509CEF82F92A">
+<Attribute name="name country" id="0F4E61CB-C150-A560-AC00-509CEF82F92A">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:46:12 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="code" id="4F7ED123-760F-5CF2-27E8-FC9AFA72A708">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:46:17 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -40,9 +65,26 @@
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:47:26 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CCD297C3-AF70-32F5-A620-EE243D70B589</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="58554D47-91F3-3788-BD3D-C5626740426D" name="COUNTRIES  UN">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>A598B475-32F5-EECD-9CAB-BB7FCB25CE09</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4F7ED123-760F-5CF2-27E8-FC9AFA72A708</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

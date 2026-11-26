@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROGRESS_TV_SHOWS_FK" directorySegmentName="seg_0" id="52D31937-BCFC-2666-7CC6-0ABCF43D9C96">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>4628A30D-DFE6-EBC1-7EF9-7D1FF2C1B024</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<sourcePk>97EC10E0-5E26-9832-3A47-545C2648F438</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DA3E5C1-082F-805B-A35C-C9703E69DA49</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C098F57-7435-BBE6-E14E-6C54E658E207</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

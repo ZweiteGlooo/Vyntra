@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61D1720F-2F4C-E781-7667-8574E7C83013" name="CAPTION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61D1720F-2F4C-E781-7667-8574E7C83013" name="CAPTIONS">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:06:11 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +20,10 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:06:28 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -23,6 +31,10 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:06:36 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -30,6 +42,10 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:06:44 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -37,26 +53,48 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:07:10 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>B2782AE4-592B-C390-80B8-16A61C346AF5</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_language" id="472A993E-ECE7-6562-3450-2E12B1BE1241">
+<Attribute name="id" id="472A993E-ECE7-6562-3450-2E12B1BE1241">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:12:12 UTC</createdTime>
 <generatorID>3665020E-542E-DE69-EBAC-B337F225536B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>72E1F62B-79C1-01E8-424B-8314EDFDED19</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="1BE5ABF9-3E40-AED7-FE73-E1477C24C208">
+<Attribute name="TITLE id" id="1BE5ABF9-3E40-AED7-FE73-E1477C24C208">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:19:33 UTC</createdTime>
 <generatorID>AD092538-91B3-4F7E-6322-0A0165600C42</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -64,9 +102,14 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:06:34 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3DEF0177-A966-D873-7B79-7B016338E55B</attributeRef>
+<attributeRef>472A993E-ECE7-6562-3450-2E12B1BE1241</attributeRef>
+<attributeRef>1BE5ABF9-3E40-AED7-FE73-E1477C24C208</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

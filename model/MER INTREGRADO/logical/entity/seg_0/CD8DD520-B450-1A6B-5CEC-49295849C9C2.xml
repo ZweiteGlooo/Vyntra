@@ -1,9 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD8DD520-B450-1A6B-5CEC-49295849C9C2" name="TITLE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD8DD520-B450-1A6B-5CEC-49295849C9C2" name="TITLES">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>758D90C1-BF81-73F7-5506-DB948F3AD7EA</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -18,62 +22,116 @@
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>E2B47FA8-69DD-81BD-D4F1-27A44BAFE066</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="type" id="B7A96869-4ED6-531E-689B-737BC8C02ED2">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>69E1EED6-EC94-D136-5098-9D9D0FE85852</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>2F884EC7-130C-3546-C35F-985789240EFA</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="release_year" id="FCAEA754-EA4B-B5D4-5634-2FDB3BB715CE">
+<Attribute name="release year" id="FCAEA754-EA4B-B5D4-5634-2FDB3BB715CE">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>C6D957F6-9535-4372-F182-720562B5CFC9</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<domain>705D53A2-AE7B-BCE3-92AA-30C59D345CE9</domain>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="synopsis" id="E30DFAED-29D3-182F-26AA-D2AFC8AB478E">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>5C8E47CE-A79F-B41F-ADEC-88CF1EFF735D</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="duration_minute" id="DF28EC7C-C21A-F3A1-1C8F-9A5A5E71D91A">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>45984186-2459-2C70-B730-D9455B295546</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="age_rating" id="89D8E233-5CB6-8FCF-E38A-41FDB0F4C1F8">
+<Attribute name="age rating" id="89D8E233-5CB6-8FCF-E38A-41FDB0F4C1F8">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>EB40843C-8181-E303-EA1B-E4B5A0C824CB</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<domain>461BC37E-216B-A033-D7F8-D88E59D35C4C</domain>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="origin" id="8EBC0357-A3BA-1DCB-3532-5FF5DB57F61D">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>CE628A18-76B5-F656-807F-4D69E4F5D9D9</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>F7387A6C-0CA9-9E52-6D33-3CE83C4B958B</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_subscription" id="45AFA473-4A2E-FDE1-85D7-5EFADAB3D915">
+<Attribute name="id2" id="45AFA473-4A2E-FDE1-85D7-5EFADAB3D915">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
 <generatorID>4178FFA8-9D7D-A382-371A-6DF8A7EC1D68</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>D8A17301-746E-6F63-2628-2B30BBCEF269</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -85,9 +143,28 @@
 <createdTime>2026-09-07 00:59:01 UTC</createdTime>
 <generatorID>C0527937-DFA1-DF8D-0446-E1A649E54CB8</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title name" id="A65CEE29-44A8-DBF8-33BD-7838DC7DDA86">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>64FDB544-9580-B223-1EBD-3CB6C079EED7</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -96,6 +173,10 @@
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>54723AA5-D4E2-B2D0-3417-B74A05C4D0CD</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</attributeRef>

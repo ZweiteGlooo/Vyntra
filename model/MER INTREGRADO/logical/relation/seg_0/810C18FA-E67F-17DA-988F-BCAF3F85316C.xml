@@ -1,10 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_26" directorySegmentName="seg_0" id="810C18FA-E67F-17DA-988F-BCAF3F85316C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAVORITE TITLE FK" directorySegmentName="seg_0" id="810C18FA-E67F-17DA-988F-BCAF3F85316C">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:18:30 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <sourcePk>2DDB1CD4-82A1-6BFF-BEDC-916740E3501C</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>has </nameOnSource>
 <nameOnTarget>is added to</nameOnTarget>
 <optionalSource>true</optionalSource>

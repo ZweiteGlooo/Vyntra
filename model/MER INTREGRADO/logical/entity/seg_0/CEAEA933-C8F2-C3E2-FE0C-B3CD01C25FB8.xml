@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEAEA933-C8F2-C3E2-FE0C-B3CD01C25FB8" name="PAYMENT_METHOD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEAEA933-C8F2-C3E2-FE0C-B3CD01C25FB8" name="PAYMENT METHODS">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 01:52:28 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,60 +16,115 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_payment_method" id="FEB55B1D-4127-B58B-BFA8-1E71C1291CA5">
+<Attribute name="id" id="FEB55B1D-4127-B58B-BFA8-1E71C1291CA5">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 01:56:59 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="card_type" id="5A334DD6-660D-6563-89CF-245FBD3E2BB8">
+<Attribute name="card type" id="5A334DD6-660D-6563-89CF-245FBD3E2BB8">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 01:57:17 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>CB85358A-541E-C84B-D575-DCF942B37F21</domain>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="card_number_masked" id="0229A20E-EEA8-3144-DB09-720F7EBE94AA">
+<Attribute name="card number masked" id="0229A20E-EEA8-3144-DB09-720F7EBE94AA">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:01:52 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cardholder_name" id="7EB32B86-2666-25A5-62AA-F23466A9122F">
+<Attribute name="cardholder name" id="7EB32B86-2666-25A5-62AA-F23466A9122F">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:02:04 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="expiration_date" id="BDFAB098-CB91-F7D5-CD9D-FBBE286ED883">
+<Attribute name="expiration date" id="BDFAB098-CB91-F7D5-CD9D-FBBE286ED883">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:02:32 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="is_default" id="27DB2D64-1E68-72C2-CF03-F86DDD243464">
+<Attribute name="is default" id="27DB2D64-1E68-72C2-CF03-F86DDD243464">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:02:40 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>B2782AE4-592B-C390-80B8-16A61C346AF5</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="state" id="3D46FA9B-32E6-9455-3CB6-FC4F83443AE4">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:02:51 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<domain>C4CD7A64-3EB7-680D-16B8-A09D0B6D23A2</domain>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_user" id="96EC7C26-4CC9-D109-5A81-D45C11D9C799">
+<Attribute name="id1" id="96EC7C26-4CC9-D109-5A81-D45C11D9C799">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:09:48 UTC</createdTime>
 <generatorID>CAA68F33-B61D-7CD7-779E-9D0D4B7B09A9</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>F2FC3576-BADC-C1AE-3059-D75C5E9C181C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,10 +133,14 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="59140E94-E0D2-E5ED-DB32-FFBBAA9B2146" name="PAYMENT_METHOD PK">
+<identifier id="59140E94-E0D2-E5ED-DB32-FFBBAA9B2146" name="PAYMENT_METHOD_PK">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 01:57:14 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FEB55B1D-4127-B58B-BFA8-1E71C1291CA5</attributeRef>

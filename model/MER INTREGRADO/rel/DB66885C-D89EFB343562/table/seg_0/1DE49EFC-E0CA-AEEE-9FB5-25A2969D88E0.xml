@@ -14,11 +14,12 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="04EA5E10-1F2D-E2C0-7C6B-2751F4CC4580" referredColumn="B5E2547A-5617-F7C8-6E2E-11F6FC637359"/>
@@ -29,6 +30,7 @@
 <createdTime>2026-11-10 21:32:51 UTC</createdTime>
 <generatorID>DF28EC7C-C21A-F3A1-1C8F-9A5A5E71D91A</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -46,6 +48,7 @@
 <createdTime>2026-10-05 15:09:54 UTC</createdTime>
 <generatorID>2DDB1CD4-82A1-6BFF-BEDC-916740E3501C</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

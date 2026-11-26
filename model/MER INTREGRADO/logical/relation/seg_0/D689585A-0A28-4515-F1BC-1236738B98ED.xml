@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_34" directorySegmentName="seg_0" id="D689585A-0A28-4515-F1BC-1236738B98ED">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAYMENT PAYMENT METHOD FK" directorySegmentName="seg_0" id="D689585A-0A28-4515-F1BC-1236738B98ED">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:14:53 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <sourcePk>59140E94-E0D2-E5ED-DB32-FFBBAA9B2146</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>is used in</nameOnSource>

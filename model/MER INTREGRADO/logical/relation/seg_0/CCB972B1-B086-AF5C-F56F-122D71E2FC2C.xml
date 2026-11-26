@@ -1,12 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_28" directorySegmentName="seg_0" id="E5258C95-B636-2F90-E2CD-CFF8AE2EAE40">
-<createdBy>Isabella</createdBy>
-<createdTime>2026-09-07 01:20:20 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOWNLOADS_PROFILES_FK" directorySegmentName="seg_0" id="CCB972B1-B086-AF5C-F56F-122D71E2FC2C">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>521B22AB-8E41-021E-27B7-88850327B7BA</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <sourcePk>6010FC09-E1FB-658C-3818-864097F474A1</sourcePk>
-<identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
-<nameOnTarget>is downloaded as</nameOnTarget>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

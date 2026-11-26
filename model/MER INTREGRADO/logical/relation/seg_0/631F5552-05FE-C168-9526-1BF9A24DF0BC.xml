@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAYMENTS_PLANS_FK" directorySegmentName="seg_0" id="631F5552-05FE-C168-9526-1BF9A24DF0BC">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>2CAE294B-66CD-72BC-CF80-F9354B53A539</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<sourcePk>77762CE9-6712-50CC-DB5E-15085505E655</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10ADC5B2-DAD1-04CA-180E-8766F126A205</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CC994664-9F78-65D7-6112-D2CE90FD66B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

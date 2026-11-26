@@ -1,10 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="D855D618-0DD2-69BD-AA76-583C62CA69D5">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLASSIFICATION GENRE FK" directorySegmentName="seg_0" id="D855D618-0DD2-69BD-AA76-583C62CA69D5">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-07 00:01:14 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <sourcePk>5B061378-C2B7-6005-7807-9338813181C2</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>has</nameOnSource>
 <nameOnTarget>corresponds to</nameOnTarget>
 <optionalSource>true</optionalSource>

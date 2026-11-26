@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="E384DAD7-D30E-8D1F-B6A6-B46A0CE3539E">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER COUNTRY FK" directorySegmentName="seg_0" id="E384DAD7-D30E-8D1F-B6A6-B46A0CE3539E">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:59 UTC</createdTime>
-<ownerDesignName>MER INTEGRADO FIN</ownerDesignName>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>FE7DF796-2977-9C99-B4F6-5EF582B621F5</importedID>
 <engineerTo>
-<item key="43259094-FA73-72ED-BB40-B10F39A8FC22" value="true"/>
-<item key="C491F51F-ED46-DD19-6B43-F8DD40885D2D" value="true"/>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
 </engineerTo>
 <sourcePk>E92B340E-540C-A8D3-98E4-620A0B982659</sourcePk>
 <identifying>false</identifying>

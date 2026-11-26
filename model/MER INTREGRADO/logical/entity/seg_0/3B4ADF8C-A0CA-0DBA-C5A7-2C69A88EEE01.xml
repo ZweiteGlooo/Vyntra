@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B4ADF8C-A0CA-0DBA-C5A7-2C69A88EEE01" name="DISCHARGE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B4ADF8C-A0CA-0DBA-C5A7-2C69A88EEE01" name="DOWNLOADS">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:07:30 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +20,10 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:08:21 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -23,6 +31,10 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:08:30 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -30,50 +42,100 @@
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:08:35 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="discharge_date" id="84396097-D33D-7AAA-5A13-AEA79A559491">
+<Attribute name="download date" id="84396097-D33D-7AAA-5A13-AEA79A559491">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:08:40 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="expiration_date" id="1BDDAEB4-BC79-1310-350E-02EF7CF40352">
+<Attribute name="expiration date" id="1BDDAEB4-BC79-1310-350E-02EF7CF40352">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:08:50 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="state" id="6EC1A7C7-2555-1AA1-084B-DA14107974CF">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:09:10 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>AC98D04B-B032-23E9-60B0-D056BB8C0AE0</domain>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_profile1" id="79FF8B1E-160F-DA8D-B9C1-9F6A1FDDEF4F">
-<createdBy>Isabella</createdBy>
-<createdTime>2026-09-07 01:20:20 UTC</createdTime>
-<generatorID>E5258C95-B636-2F90-E2CD-CFF8AE2EAE40</generatorID>
+<Attribute name="PROFILES id" id="08FBD6B3-4E31-DC3E-55DB-6EECE568406F">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>CCB972B1-B086-AF5C-F56F-122D71E2FC2C</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <referedAttribute>1C1A678B-7422-795E-EF08-5F4D469310F8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="26442C78-4999-ED4C-C851-6FD8506F742A">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>35A7670D-DD6A-53B0-8F70-8AB5087A05C4</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>B442DFB6-738A-4B2C-CBDC-C06398A05BBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3A224757-1785-9003-1DE9-4DAA899C6D60" name="DISCHARGE PK">
+<identifier id="3A224757-1785-9003-1DE9-4DAA899C6D60" name="DOWNLOAD_PK">
 <createdBy>Isabella</createdBy>
 <createdTime>2026-09-07 01:08:28 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F22C7434-C1E1-48CF-AABD-F5E7DC747BA1</attributeRef>
+<attributeRef>08FBD6B3-4E31-DC3E-55DB-6EECE568406F</attributeRef>
+<attributeRef>84396097-D33D-7AAA-5A13-AEA79A559491</attributeRef>
+<attributeRef>26442C78-4999-ED4C-C851-6FD8506F742A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

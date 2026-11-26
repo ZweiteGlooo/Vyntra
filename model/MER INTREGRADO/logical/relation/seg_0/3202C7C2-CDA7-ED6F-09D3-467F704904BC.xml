@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_37" directorySegmentName="seg_0" id="3202C7C2-CDA7-ED6F-09D3-467F704904BC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAYMENT PROMO CODE FK" directorySegmentName="seg_0" id="3202C7C2-CDA7-ED6F-09D3-467F704904BC">
 <createdBy>verop</createdBy>
 <createdTime>2026-09-07 02:16:43 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <sourcePk>DB2196E2-E42B-EE83-B2F2-AA27B11B9935</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>is applied to</nameOnSource>

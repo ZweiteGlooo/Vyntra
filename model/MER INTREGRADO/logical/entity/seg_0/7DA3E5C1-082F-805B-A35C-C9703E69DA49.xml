@@ -1,9 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DA3E5C1-082F-805B-A35C-C9703E69DA49" name="EPISODE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DA3E5C1-082F-805B-A35C-C9703E69DA49" name="EPISODES">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>E864F3E7-9788-A0D7-46CB-FA1A0CDFC4E8</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -13,83 +17,169 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_episode" id="D1BA0539-B088-0378-3256-C343638FDE2B">
-<createdBy>valentanga</createdBy>
-<createdTime>2026-09-06 23:37:37 UTC</createdTime>
-<ownerDesignName>MER INTREGRADO</ownerDesignName>
-<importedID>1F22A2C1-382B-7B02-5096-CA461C1BBF52</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_title" id="384D426D-C558-91FC-023A-3BD3A6EEFBC5">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>F22C5FB7-A452-191F-2506-B076962DC4C1</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="season_number" id="1D81DB26-E076-FE56-1175-2198B230CA09">
+<Attribute name="season number" id="1D81DB26-E076-FE56-1175-2198B230CA09">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>9EDA47C9-A344-F3BF-C1FD-34A3DA8C7EAC</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="season_episode" id="FB695A29-DAC1-DA06-7488-869232B83941">
+<Attribute name="season episode" id="FB695A29-DAC1-DA06-7488-869232B83941">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>C4D15BE9-E4C3-FFB3-48E5-6B224D50A9BF</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name_episode" id="8A84DCB0-DF54-18CA-1270-5C8AAF577D72">
+<Attribute name="name episode" id="8A84DCB0-DF54-18CA-1270-5C8AAF577D72">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>662A8F3E-4BCA-A3C9-1DEE-F22A5FF7AD01</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duration_minute" id="667ED763-7BCC-9F23-A7AB-FE96938BAF46">
+<Attribute name="duration minute" id="667ED763-7BCC-9F23-A7AB-FE96938BAF46">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>C379B389-A80E-8742-895D-4672C04FB9AA</importedID>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_episode1" id="FA93A4B1-F5D2-9E68-0740-0A36DA541946">
-<createdBy>Isabella</createdBy>
-<createdTime>2026-09-07 00:59:31 UTC</createdTime>
+<Attribute name="season number1" id="FC48F2E8-8EBF-0717-DE8F-FBCFBB420622">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
 <generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<referedAttribute>D1BA0539-B088-0378-3256-C343638FDE2B</referedAttribute>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>1D81DB26-E076-FE56-1175-2198B230CA09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_title1" id="F82AFA11-0C70-5B36-BC25-A1C5863CA6EB">
-<createdBy>Isabella</createdBy>
-<createdTime>2026-09-07 00:59:31 UTC</createdTime>
+<Attribute name="season episode1" id="EC0D76E0-DCE4-3327-CE3F-B74A88F248AF">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
 <generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
-<referedAttribute>384D426D-C558-91FC-023A-3BD3A6EEFBC5</referedAttribute>
-<use>0</use>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FB695A29-DAC1-DA06-7488-869232B83941</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season number2" id="F043A60D-FF7D-4D22-B946-15AB6ADB8B03">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>1D81DB26-E076-FE56-1175-2198B230CA09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season episode2" id="FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E">
+<createdBy>glori</createdBy>
+<createdTime>2026-11-26 00:07:07 UTC</createdTime>
+<generatorID>337BACE0-6D63-E51A-DC80-A7BBCCCC427B</generatorID>
+<ownerDesignName>MER INTREGRADO</ownerDesignName>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
+<referedAttribute>FB695A29-DAC1-DA06-7488-869232B83941</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="97EC10E0-5E26-9832-3A47-545C2648F438" name="EPISODIO PK">
+<identifier id="97EC10E0-5E26-9832-3A47-545C2648F438" name="EPISODE_PK">
 <createdBy>valentanga</createdBy>
 <createdTime>2026-09-06 23:37:37 UTC</createdTime>
 <ownerDesignName>MER INTREGRADO</ownerDesignName>
 <importedID>82A042BB-68AC-DCBB-CC8A-6AAE7203961A</importedID>
+<engineerTo>
+<item key="DB66885C-0980-7CC4-AF3C-D89EFB343562" value="true"/>
+<item key="BA7B2125-B613-2A94-1DD7-01707C640838" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D1BA0539-B088-0378-3256-C343638FDE2B</attributeRef>
-<attributeRef>384D426D-C558-91FC-023A-3BD3A6EEFBC5</attributeRef>
+<attributeRef>1D81DB26-E076-FE56-1175-2198B230CA09</attributeRef>
+<attributeRef>FB695A29-DAC1-DA06-7488-869232B83941</attributeRef>
+<attributeRef>FC48F2E8-8EBF-0717-DE8F-FBCFBB420622</attributeRef>
+<attributeRef>EC0D76E0-DCE4-3327-CE3F-B74A88F248AF</attributeRef>
+<attributeRef>F043A60D-FF7D-4D22-B946-15AB6ADB8B03</attributeRef>
+<attributeRef>FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E</attributeRef>
+<attributeRef>FC48F2E8-8EBF-0717-DE8F-FBCFBB420622</attributeRef>
+<attributeRef>EC0D76E0-DCE4-3327-CE3F-B74A88F248AF</attributeRef>
+<attributeRef>F043A60D-FF7D-4D22-B946-15AB6ADB8B03</attributeRef>
+<attributeRef>FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E</attributeRef>
+<attributeRef>FC48F2E8-8EBF-0717-DE8F-FBCFBB420622</attributeRef>
+<attributeRef>EC0D76E0-DCE4-3327-CE3F-B74A88F248AF</attributeRef>
+<attributeRef>F043A60D-FF7D-4D22-B946-15AB6ADB8B03</attributeRef>
+<attributeRef>FFDD5DA2-82C9-7C5A-A86E-FFCE4FC78B8E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
