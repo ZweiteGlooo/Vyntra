@@ -288,3 +288,72 @@ FROM (
 )
 GROUP BY TIPO_CONTENIDO
 ORDER BY DURACION_PROMEDIO_MINUTOS DESC;
+
+-- REPORTE 21: PERFILES CON MAS TITULOS FAVORITOS
+-- Descripcion:
+-- Consultar los perfiles que tienen mayor cantidad de
+-- titulos agregados a su lista de favoritos, mostrando
+-- el nombre del perfil y la cantidad de favoritos.
+SELECT P.name AS NOMBRE_PERFIL,
+       COUNT(F.TITLE_id) AS CANTIDAD_FAVORITOS
+FROM PROFILES P
+INNER JOIN FAVORITES F ON P.id = F.PROFILE_id
+GROUP BY P.id, P.name
+ORDER BY CANTIDAD_FAVORITOS DESC;
+
+
+-- REPORTE 22: SERIES CON MAYOR CANTIDAD DE EPISODIOS
+-- Descripcion:
+-- Consultar las series que tienen mayor cantidad de
+-- episodios registrados, mostrando el nombre de la serie
+-- y la cantidad total de episodios.
+SELECT T.title_name AS SERIE,
+       COUNT(E.season_episode) AS CANTIDAD_EPISODIOS
+FROM TV_SHOWS TV
+INNER JOIN TITLES T ON TV.TITLES_id = T.id
+INNER JOIN EPISODES E ON TV.TITLES_id = E.TITLE_id
+GROUP BY T.title_name
+ORDER BY CANTIDAD_EPISODIOS DESC;
+
+
+-- REPORTE 23: TITULOS MAS RECOMENDADOS
+-- Descripcion:
+-- Consultar los titulos que han sido recomendados a una
+-- mayor cantidad de perfiles, mostrando el nombre del
+-- titulo y la cantidad de recomendaciones recibidas.
+SELECT T.title_name AS TITULO,
+       COUNT(R.id) AS CANTIDAD_RECOMENDACIONES
+FROM TITLES T
+INNER JOIN RECOMMENDATIONS R ON T.id = R.TITLE_id
+GROUP BY T.title_name
+ORDER BY CANTIDAD_RECOMENDACIONES DESC;
+
+
+-- REPORTE 24: METODOS DE PAGO ACTIVOS POR USUARIO
+-- Descripcion:
+-- Consultar los usuarios que tienen metodos de pago
+-- activos registrados, mostrando su nombre, correo y
+-- cantidad de metodos de pago activos.
+SELECT U.full_name AS NOMBRE_USUARIO,
+       U.email AS CORREO,
+       COUNT(PM.id) AS METODOS_PAGO_ACTIVOS
+FROM USERS U
+INNER JOIN PAYMENT_METHODS PM ON U.id = PM.USER_id
+WHERE PM.state = 'A'
+GROUP BY U.id, U.full_name, U.email
+ORDER BY METODOS_PAGO_ACTIVOS DESC;
+
+
+-- REPORTE 25: CONTENIDO CON DISPONIBILIDAD PROXIMA
+-- Descripcion:
+-- Consultar los titulos que estaran disponibles en una
+-- fecha futura, mostrando el nombre del contenido,
+-- el pais y la fecha en que estara disponible.
+SELECT T.title_name AS TITULO,
+       C.name_country AS PAIS,
+       AV.available_date AS FECHA_DISPONIBILIDAD
+FROM TITLES T
+INNER JOIN AVAILABILITY AV ON T.id = AV.TITLE_id
+INNER JOIN COUNTRIES C ON AV.COUNTRY_id = C.id
+WHERE AV.available_date > SYSDATE
+ORDER BY AV.available_date ASC;
